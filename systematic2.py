@@ -191,8 +191,11 @@ def systematic_search(conformer,
         if isinstance(conformer, TS):
             label = conformer.reaction_label
             ind1 = conformer.rmg_molecule.getLabeledAtom("*1").sortingLabel
-            ind2 = conformer.rmg_molecule.getLabeledAtom("*3").sortingLabel
+            ind2 = conformer.rmg_molecule.getLabeledAtom("*2").sortingLabel
+            ind3 = conformer.rmg_molecule.getLabeledAtom("*3").sortingLabel
             labels.append([ind1, ind2])
+            labels.append([ind2, ind3])
+            labels.append([ind1, ind3])
             type = 'ts'
         else:
             label = conformer.smiles
@@ -220,7 +223,7 @@ def systematic_search(conformer,
         conformer.ase_molecule.set_calculator(calculator)
 
         opt = BFGS(conformer.ase_molecule, logfile=None)
-        opt.run(fmax=0.1)
+        opt.run(fmax=0.05) #####
         conformer.update_coords_from("ase")
         energy = get_energy(conformer)
         return_dict[i] = (energy, conformer.ase_molecule.arrays,

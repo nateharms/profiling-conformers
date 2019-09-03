@@ -29,11 +29,11 @@ elif i == 3:
     directory = "tight"
 
 #%%
-smiles = "COC=CO"
-species = Species([smiles])
-conf = species.conformers[smiles][0]
+smiles = "CC+[O]O_[CH2]C"
+reaction = Reaction(smiles)
+conf = reaction.ts["forward"][0]
 conf.ase_molecule.set_calculator(Hotbit())
-species.conformers[smiles] = systematic_search(conf)
+reaction.ts["forward"] = systematic_search(conf)
 
 #%%
 hotbit_results = []
@@ -41,10 +41,11 @@ for conformer in species.conformers[smiles]:
     hotbit_results.append([conformer.index, conformer.energy])
 
 df = pd.DataFrame(hotbit_results, columns=["index", "hotbit"])
-df.to_csv("./{}/hotbit.csv".format(directory))
+df.to_csv("./{}/hotbit-ts.csv".format(directory))
 
 #%%
 job = Job(    
+    reaction=reaction,
     calculator=Gaussian(
         settings={
             "method": "m062x",
@@ -56,4 +57,4 @@ job = Job(
     ),
     partition="general"
 )
-job.calculate_species(species)
+job.calculate_reaction()
