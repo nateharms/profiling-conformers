@@ -2,7 +2,7 @@
 import os
 import numpy as np
 import pandas as pd
-from systematic import *
+#from systematic import *
 from autotst.species import Species, Conformer
 from autotst.job.job import Job
 from hotbit import Hotbit

@@ -2,8 +2,9 @@
 import os
 import numpy as np
 import pandas as pd
-from systematic import *
+#from systematic import *
 from autotst.species import Species, Conformer
+from autotst.reaction import Reaction, TS
 from autotst.job.job import Job
 from hotbit import Hotbit
 from autotst.calculator.gaussian import Gaussian
@@ -29,7 +30,7 @@ elif i == 3:
     directory = "tight"
 
 #%%
-smiles = "CC+[O]O_[CH2]C"
+smiles = "CCC+[O]O_[CH2]CC+OO"
 reaction = Reaction(smiles)
 conf = reaction.ts["forward"][0]
 conf.ase_molecule.set_calculator(Hotbit())
@@ -37,7 +38,7 @@ reaction.ts["forward"] = systematic_search(conf)
 
 #%%
 hotbit_results = []
-for conformer in species.conformers[smiles]:
+for conformer in reaction.ts["forward"]:
     hotbit_results.append([conformer.index, conformer.energy])
 
 df = pd.DataFrame(hotbit_results, columns=["index", "hotbit"])
