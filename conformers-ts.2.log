@@ -252,3 +252,37 @@ job.py:590 calculate_transitionstate INFO Calculations for CCC+[O]O_[CH2]CC+OO_f
 vibrational_analysis.py:224 validate_ts INFO Vibrational analysis was successful
 job.py:712 validate_transitionstate INFO Validated via Vibrational Analysis
 job.py:581 calculate_transitionstate INFO CCC+[O]O_[CH2]CC+OO_reverse_0 failed the SHELL optimization
+job.py:585 calculate_transitionstate INFO CCC+[O]O_[CH2]CC+OO_forward_7 successfully completed the OVERALL optimization!
+job.py:590 calculate_transitionstate INFO Calculations for CCC+[O]O_[CH2]CC+OO_forward_7 are complete and resulted in a normal termination!
+vibrational_analysis.py:224 validate_ts INFO Vibrational analysis was successful
+job.py:712 validate_transitionstate INFO Validated via Vibrational Analysis
+job.py:581 calculate_transitionstate INFO CCC+[O]O_[CH2]CC+OO_forward_6 failed the OVERALL optimization
+job.py:581 calculate_transitionstate INFO CCC+[O]O_[CH2]CC+OO_forward_0 failed the OVERALL optimization
+job.py:581 calculate_transitionstate INFO CCC+[O]O_[CH2]CC+OO_forward_2 failed the OVERALL optimization
+job.py:585 calculate_transitionstate INFO CCC+[O]O_[CH2]CC+OO_forward_1 successfully completed the OVERALL optimization!
+job.py:590 calculate_transitionstate INFO Calculations for CCC+[O]O_[CH2]CC+OO_forward_1 are complete and resulted in a normal termination!
+vibrational_analysis.py:224 validate_ts INFO Vibrational analysis was successful
+job.py:712 validate_transitionstate INFO Validated via Vibrational Analysis
+job.py:585 calculate_transitionstate INFO CCC+[O]O_[CH2]CC+OO_forward_3 successfully completed the OVERALL optimization!
+job.py:590 calculate_transitionstate INFO Calculations for CCC+[O]O_[CH2]CC+OO_forward_3 are complete and resulted in a normal termination!
+vibrational_analysis.py:224 validate_ts INFO Vibrational analysis was successful
+job.py:712 validate_transitionstate INFO Validated via Vibrational Analysis
+job.py:581 calculate_transitionstate INFO CCC+[O]O_[CH2]CC+OO_forward_4 failed the OVERALL optimization
+job.py:647 calculate_reaction INFO Calculations for CCC+[O]O_[CH2]CC+OO_forward_6 FAILED
+job.py:647 calculate_reaction INFO Calculations for CCC+[O]O_[CH2]CC+OO_forward_4 FAILED
+job.py:647 calculate_reaction INFO Calculations for CCC+[O]O_[CH2]CC+OO_forward_2 FAILED
+job.py:647 calculate_reaction INFO Calculations for CCC+[O]O_[CH2]CC+OO_forward_0 FAILED
+job.py:647 calculate_reaction INFO Calculations for CCC+[O]O_[CH2]CC+OO_reverse_0 FAILED
+job.py:652 calculate_reaction INFO It appears that CCC+[O]O_[CH2]CC+OO_reverse_0.log failed...
+job.py:678 calculate_reaction INFO The lowest energy transition state is CCC+[O]O_[CH2]CC+OO_forward_9.log
+job.py:687 calculate_reaction INFO The lowest energy file is CCC+[O]O_[CH2]CC+OO_forward_9.log.log! :)
+Solved zero times.
+
+Timing:
+            label                    time     calls    %sub  %covered   %tot
+-------------------------------------------------------------------------------
+Hotbit                          173297.811         1 (100.0 %,  0.0 %) 100.0 % |000000000000000000000000000000|
+../initialization                    0.218         1 (  0.0 %        )   0.0 % ||
+ -------------------------------------------------------------------------------
+total time   173297.811 seconds      48 h  8 min  18 sec
+Sat Sep  7 10:08:05 2019
