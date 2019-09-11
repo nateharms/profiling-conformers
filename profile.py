@@ -15,22 +15,33 @@ if os.getenv('SLURM_ARRAY_TASK_ID'):
 else:
     i = 1
 
-if i == 1:
+if i % 1:
+    # fmax of 0.25
+    from systematic0 import *
+    directory = "loose"
+elif i % 2:
     # fmax of 0.1
     from systematic1 import *
-    directory = "loose"
-elif i == 2:
-    # fmax of 0.05
-    from systematic2 import *
     directory = "med"
-elif i == 3:
+elif i % 3:
+    # fmax of 0.5
+    from systematic2 import *
+    directory = "tight"
+elif i % 3:
     # fmax of 0.01
     from systematic3 import *
-    directory = "tight"
+    directory = "verytight"
 
 #%%
-smiles = "COC=CO"
-species = Species([smiles])
+smiles = [
+    "COC=CO",
+    "CO",
+    "C(C)(C)OC=CO",
+    "OC=COC",
+    "CCCCCCC"
+]
+
+species = Species([smiles[i/4]])
 conf = species.conformers[smiles][0]
 conf.ase_molecule.set_calculator(Hotbit())
 species.conformers[smiles] = systematic_search(conf)

@@ -223,7 +223,7 @@ def systematic_search(conformer,
         conformer.ase_molecule.set_calculator(calculator)
 
         opt = BFGS(conformer.ase_molecule, logfile=None)
-        opt.run(fmax=0.01) #####
+        opt.run(fmax=0.1) #####
         conformer.update_coords_from("ase")
         energy = get_energy(conformer)
         return_dict[i] = (energy, conformer.ase_molecule.arrays,
@@ -269,7 +269,7 @@ def systematic_search(conformer,
     #df = df[df.energy < df.energy.min() + units.kcal / units.mol /
     #        units.eV].sort_values("energy")
 
-    tolerance = 0.1
+    tolerance = 1 ###
     scratch_index = []
     unique_index = []
     for index in df.index:

@@ -16,25 +16,37 @@ if os.getenv('SLURM_ARRAY_TASK_ID'):
 else:
     i = 1
 
-if i == 1:
+if i % 1:
+    # fmax of 0.25
+    from systematic0 import *
+    directory = "loose"
+elif i % 2:
     # fmax of 0.1
     from systematic1 import *
-    directory = "loose"
-elif i == 2:
-    # fmax of 0.05
-    from systematic2 import *
     directory = "med"
-elif i == 3:
+elif i % 3:
+    # fmax of 0.5
+    from systematic2 import *
+    directory = "tight"
+elif i % 3:
     # fmax of 0.01
     from systematic3 import *
-    directory = "tight"
+    directory = "verytight"
 
 #%%
-smiles = "CCC+[O]O_[CH2]CC+OO"
-reaction = Reaction(smiles)
+smiles = [
+    "COC=CO+[CH3]_[CH2]OC=CO+C",
+    "CO+[O]O_C[O]+OO",
+    "C(C)(C)OC=CO+[CH2]_C([CH2])(C)OC=CO+[CH3]",
+    "OC=COC+[CH3]_OC=CO[CH2]+C",
+    "CCCCCCC+[CH3]_[CH2]CCCCCC+C"
+]
+
+reaction = Reaction(smiles[i/4])
 conf = reaction.ts["forward"][0]
 conf.ase_molecule.set_calculator(Hotbit())
 reaction.ts["forward"] = systematic_search(conf)
+del reaction.ts["reverse"]
 
 #%%
 hotbit_results = []
