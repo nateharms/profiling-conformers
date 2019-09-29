@@ -1,0 +1,720 @@
+ Entering Gaussian System, Link 0=g16
+ Input=verytight/species/CCCCCCC/conformers/CCCCCCC_122.com
+ Output=verytight/species/CCCCCCC/conformers/CCCCCCC_122.log
+ Initial command:
+ /shared/centos7/gaussian/g16/l1.exe "/scratch/harms.n/gauss_scrdir/Gau-36988.inp" -scrdir="/scratch/harms.n/gauss_scrdir/"
+ Entering Link 1 = /shared/centos7/gaussian/g16/l1.exe PID=     36990.
+  
+ Copyright (c) 1988,1990,1992,1993,1995,1998,2003,2009,2016,
+            Gaussian, Inc.  All Rights Reserved.
+  
+ This is part of the Gaussian(R) 16 program.  It is based on
+ the Gaussian(R) 09 system (copyright 2009, Gaussian, Inc.),
+ the Gaussian(R) 03 system (copyright 2003, Gaussian, Inc.),
+ the Gaussian(R) 98 system (copyright 1998, Gaussian, Inc.),
+ the Gaussian(R) 94 system (copyright 1995, Gaussian, Inc.),
+ the Gaussian 92(TM) system (copyright 1992, Gaussian, Inc.),
+ the Gaussian 90(TM) system (copyright 1990, Gaussian, Inc.),
+ the Gaussian 88(TM) system (copyright 1988, Gaussian, Inc.),
+ the Gaussian 86(TM) system (copyright 1986, Carnegie Mellon
+ University), and the Gaussian 82(TM) system (copyright 1983,
+ Carnegie Mellon University). Gaussian is a federally registered
+ trademark of Gaussian, Inc.
+  
+ This software contains proprietary and confidential information,
+ including trade secrets, belonging to Gaussian, Inc.
+  
+ This software is provided under written license and may be
+ used, copied, transmitted, or stored only in accord with that
+ written license.
+  
+ The following legend is applicable only to US Government
+ contracts under FAR:
+  
+                    RESTRICTED RIGHTS LEGEND
+  
+ Use, reproduction and disclosure by the US Government is
+ subject to restrictions as set forth in subparagraphs (a)
+ and (c) of the Commercial Computer Software - Restricted
+ Rights clause in FAR 52.227-19.
+  
+ Gaussian, Inc.
+ 340 Quinnipiac St., Bldg. 40, Wallingford CT 06492
+  
+  
+ ---------------------------------------------------------------
+ Warning -- This program may not be used in any manner that
+ competes with the business of Gaussian, Inc. or will provide
+ assistance to any competitor of Gaussian, Inc.  The licensee
+ of this program is prohibited from giving any competitor of
+ Gaussian, Inc. access to this program.  By using this program,
+ the user acknowledges that Gaussian, Inc. is engaged in the
+ business of creating and licensing software in the field of
+ computational chemistry and represents and warrants to the
+ licensee that it is not a competitor of Gaussian, Inc. and that
+ it will not use this program in any manner prohibited above.
+ ---------------------------------------------------------------
+  
+
+ Cite this work as:
+ Gaussian 16, Revision A.03,
+ M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, 
+ M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, 
+ G. A. Petersson, H. Nakatsuji, X. Li, M. Caricato, A. V. Marenich, 
+ J. Bloino, B. G. Janesko, R. Gomperts, B. Mennucci, H. P. Hratchian, 
+ J. V. Ortiz, A. F. Izmaylov, J. L. Sonnenberg, D. Williams-Young, 
+ F. Ding, F. Lipparini, F. Egidi, J. Goings, B. Peng, A. Petrone, 
+ T. Henderson, D. Ranasinghe, V. G. Zakrzewski, J. Gao, N. Rega, 
+ G. Zheng, W. Liang, M. Hada, M. Ehara, K. Toyota, R. Fukuda, 
+ J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, 
+ T. Vreven, K. Throssell, J. A. Montgomery, Jr., J. E. Peralta, 
+ F. Ogliaro, M. J. Bearpark, J. J. Heyd, E. N. Brothers, K. N. Kudin, 
+ V. N. Staroverov, T. A. Keith, R. Kobayashi, J. Normand, 
+ K. Raghavachari, A. P. Rendell, J. C. Burant, S. S. Iyengar, 
+ J. Tomasi, M. Cossi, J. M. Millam, M. Klene, C. Adamo, R. Cammi, 
+ J. W. Ochterski, R. L. Martin, K. Morokuma, O. Farkas, 
+ J. B. Foresman, and D. J. Fox, Gaussian, Inc., Wallingford CT, 2016.
+ 
+ ******************************************
+ Gaussian 16:  EM64L-G16RevA.03 25-Dec-2016
+                29-Sep-2019 
+ ******************************************
+ %nprocshared=20
+ Will use up to   20 processors via shared memory.
+ %mem=5GB
+ ----------------------------------------------------------------------
+ #p m062x/cc-pVTZ opt=(calcfc,maxcycles=900,Tight) freq IOP(7/33=1,2/16
+ =3) scf=(maxcycle=900)
+ ----------------------------------------------------------------------
+ 1/6=900,7=10,10=4,18=20,19=15,26=3,38=1/1,3;
+ 2/9=110,12=2,16=3,17=6,18=5,40=1/2;
+ 3/5=16,6=1,11=2,25=1,30=1,71=2,74=-55,140=1/1,2,3;
+ 4//1;
+ 5/5=2,7=900,38=5/2;
+ 8/6=4,10=90,11=11/1;
+ 11/6=1,8=1,9=11,15=111,16=1/1,2,10;
+ 10/6=1,13=1/2;
+ 6/7=2,8=2,9=2,10=2,28=1/1;
+ 7/10=1,18=20,25=1,33=1/1,2,3,16;
+ 1/6=900,7=10,10=4,18=20,19=15,26=3/3(2);
+ 2/9=110,16=3/2;
+ 99//99;
+ 2/9=110,16=3/2;
+ 3/5=16,6=1,11=2,25=1,30=1,71=1,74=-55/1,2,3;
+ 4/5=5,16=3,69=1/1;
+ 5/5=2,7=900,38=5/2;
+ 7/33=1/1,2,3,16;
+ 1/6=900,7=10,18=20,19=15,26=3/3(-5);
+ 2/9=110,16=3/2;
+ 6/7=2,8=2,9=2,10=2,19=2,28=1/1;
+ 99/9=1/99;
+ Leave Link    1 at Sun Sep 29 13:19:40 2019, MaxMem=   671088640 cpu:               4.1 elap:               2.1
+ (Enter /shared/centos7/gaussian/g16/l101.exe)
+ ------------------------------
+ Gaussian input prepared by ASE
+ ------------------------------
+ Symbolic Z-matrix:
+ Charge =  0 Multiplicity = 1
+ C                     1.35731  -0.99876   0.31313 
+ C                     0.96827   0.15669   1.17077 
+ C                    -0.06582   1.0801    0.57667 
+ C                     2.2124   -0.67968  -0.86672 
+ C                    -0.42616   2.23799   1.47732 
+ C                     1.532    -0.01535  -1.99158 
+ C                     0.73795   3.12995   1.82252 
+ H                     2.6633   -1.64159  -1.24163 
+ H                     3.07776  -0.05567  -0.5388 
+ H                     0.44588  -1.53733  -0.02273 
+ H                     1.91122  -1.72049   0.94789 
+ H                     1.8634    0.74204   1.43304 
+ H                     0.57427  -0.23834   2.13097 
+ H                    -0.98182   0.50819   0.35087 
+ H                     0.30094   1.47196  -0.39445 
+ H                    -1.21901   2.85199   0.97542 
+ H                    -0.87646   1.85324   2.40816 
+ H                     1.12631   0.97138  -1.69892 
+ H                     2.25035   0.14955  -2.8485 
+ H                     0.68827  -0.62706  -2.37555 
+ H                     1.14495   3.61232   0.93299 
+ H                     1.56393   2.54052   2.30852 
+ H                     0.41859   3.93611   2.54363 
+ 
+ ITRead=  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+ ITRead=  0  0  0
+ MicOpt= -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ MicOpt= -1 -1 -1
+ NAtoms=     23 NQM=       23 NQMF=       0 NMMI=      0 NMMIF=      0
+                NMic=       0 NMicF=      0.
+                    Isotopes and Nuclear Properties:
+ (Nuclear quadrupole moments (NQMom) in fm**2, nuclear magnetic moments (NMagM)
+  in nuclear magnetons)
+
+  Atom         1           2           3           4           5           6           7           8           9          10
+ IAtWgt=          12          12          12          12          12          12          12           1           1           1
+ AtmWgt=  12.0000000  12.0000000  12.0000000  12.0000000  12.0000000  12.0000000  12.0000000   1.0078250   1.0078250   1.0078250
+ NucSpn=           0           0           0           0           0           0           0           1           1           1
+ AtZEff=  -0.0000000  -0.0000000  -0.0000000  -0.0000000  -0.0000000  -0.0000000  -0.0000000  -0.0000000  -0.0000000  -0.0000000
+ NQMom=    0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000
+ NMagM=    0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   2.7928460   2.7928460   2.7928460
+ AtZNuc=   6.0000000   6.0000000   6.0000000   6.0000000   6.0000000   6.0000000   6.0000000   1.0000000   1.0000000   1.0000000
+
+  Atom        11          12          13          14          15          16          17          18          19          20
+ IAtWgt=           1           1           1           1           1           1           1           1           1           1
+ AtmWgt=   1.0078250   1.0078250   1.0078250   1.0078250   1.0078250   1.0078250   1.0078250   1.0078250   1.0078250   1.0078250
+ NucSpn=           1           1           1           1           1           1           1           1           1           1
+ AtZEff=  -0.0000000  -0.0000000  -0.0000000  -0.0000000  -0.0000000  -0.0000000  -0.0000000  -0.0000000  -0.0000000  -0.0000000
+ NQMom=    0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000
+ NMagM=    2.7928460   2.7928460   2.7928460   2.7928460   2.7928460   2.7928460   2.7928460   2.7928460   2.7928460   2.7928460
+ AtZNuc=   1.0000000   1.0000000   1.0000000   1.0000000   1.0000000   1.0000000   1.0000000   1.0000000   1.0000000   1.0000000
+
+  Atom        21          22          23
+ IAtWgt=           1           1           1
+ AtmWgt=   1.0078250   1.0078250   1.0078250
+ NucSpn=           1           1           1
+ AtZEff=  -0.0000000  -0.0000000  -0.0000000
+ NQMom=    0.0000000   0.0000000   0.0000000
+ NMagM=    2.7928460   2.7928460   2.7928460
+ AtZNuc=   1.0000000   1.0000000   1.0000000
+ Leave Link  101 at Sun Sep 29 13:19:41 2019, MaxMem=   671088640 cpu:               2.2 elap:               1.1
+ (Enter /shared/centos7/gaussian/g16/l103.exe)
+
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+ Berny optimization.
+ Initialization pass.
+                           ----------------------------
+                           !    Initial Parameters    !
+                           ! (Angstroms and Degrees)  !
+ --------------------------                            --------------------------
+ ! Name  Definition              Value          Derivative Info.                !
+ --------------------------------------------------------------------------------
+ ! R1    R(1,2)                  1.4906         calculate D2E/DX2 analytically  !
+ ! R2    R(1,4)                  1.4917         calculate D2E/DX2 analytically  !
+ ! R3    R(1,10)                 1.1107         calculate D2E/DX2 analytically  !
+ ! R4    R(1,11)                 1.1093         calculate D2E/DX2 analytically  !
+ ! R5    R(2,3)                  1.5083         calculate D2E/DX2 analytically  !
+ ! R6    R(2,12)                 1.1012         calculate D2E/DX2 analytically  !
+ ! R7    R(2,13)                 1.1105         calculate D2E/DX2 analytically  !
+ ! R8    R(3,5)                  1.5105         calculate D2E/DX2 analytically  !
+ ! R9    R(3,14)                 1.1032         calculate D2E/DX2 analytically  !
+ ! R10   R(3,15)                 1.1096         calculate D2E/DX2 analytically  !
+ ! R11   R(4,6)                  1.473          calculate D2E/DX2 analytically  !
+ ! R12   R(4,8)                  1.1266         calculate D2E/DX2 analytically  !
+ ! R13   R(4,9)                  1.1161         calculate D2E/DX2 analytically  !
+ ! R14   R(5,7)                  1.5066         calculate D2E/DX2 analytically  !
+ ! R15   R(5,16)                 1.1214         calculate D2E/DX2 analytically  !
+ ! R16   R(5,17)                 1.1033         calculate D2E/DX2 analytically  !
+ ! R17   R(6,18)                 1.1063         calculate D2E/DX2 analytically  !
+ ! R18   R(6,19)                 1.1303         calculate D2E/DX2 analytically  !
+ ! R19   R(6,20)                 1.1106         calculate D2E/DX2 analytically  !
+ ! R20   R(7,21)                 1.0907         calculate D2E/DX2 analytically  !
+ ! R21   R(7,22)                 1.1251         calculate D2E/DX2 analytically  !
+ ! R22   R(7,23)                 1.1278         calculate D2E/DX2 analytically  !
+ ! A1    A(2,1,4)              116.0333         calculate D2E/DX2 analytically  !
+ ! A2    A(2,1,10)             109.6138         calculate D2E/DX2 analytically  !
+ ! A3    A(2,1,11)             107.7826         calculate D2E/DX2 analytically  !
+ ! A4    A(4,1,10)             109.5702         calculate D2E/DX2 analytically  !
+ ! A5    A(4,1,11)             107.7899         calculate D2E/DX2 analytically  !
+ ! A6    A(10,1,11)            105.5035         calculate D2E/DX2 analytically  !
+ ! A7    A(1,2,3)              115.269          calculate D2E/DX2 analytically  !
+ ! A8    A(1,2,12)             109.6878         calculate D2E/DX2 analytically  !
+ ! A9    A(1,2,13)             108.321          calculate D2E/DX2 analytically  !
+ ! A10   A(3,2,12)             109.007          calculate D2E/DX2 analytically  !
+ ! A11   A(3,2,13)             108.367          calculate D2E/DX2 analytically  !
+ ! A12   A(12,2,13)            105.7564         calculate D2E/DX2 analytically  !
+ ! A13   A(2,3,5)              113.4523         calculate D2E/DX2 analytically  !
+ ! A14   A(2,3,14)             109.4196         calculate D2E/DX2 analytically  !
+ ! A15   A(2,3,15)             109.5319         calculate D2E/DX2 analytically  !
+ ! A16   A(5,3,14)             108.7443         calculate D2E/DX2 analytically  !
+ ! A17   A(5,3,15)             109.2679         calculate D2E/DX2 analytically  !
+ ! A18   A(14,3,15)            106.1642         calculate D2E/DX2 analytically  !
+ ! A19   A(1,4,6)              115.8312         calculate D2E/DX2 analytically  !
+ ! A20   A(1,4,8)              108.0605         calculate D2E/DX2 analytically  !
+ ! A21   A(1,4,9)              109.3694         calculate D2E/DX2 analytically  !
+ ! A22   A(6,4,8)              108.4116         calculate D2E/DX2 analytically  !
+ ! A23   A(6,4,9)              109.2903         calculate D2E/DX2 analytically  !
+ ! A24   A(8,4,9)              105.3562         calculate D2E/DX2 analytically  !
+ ! A25   A(3,5,7)              113.9608         calculate D2E/DX2 analytically  !
+ ! A26   A(3,5,16)             108.7544         calculate D2E/DX2 analytically  !
+ ! A27   A(3,5,17)             109.4569         calculate D2E/DX2 analytically  !
+ ! A28   A(7,5,16)             108.9461         calculate D2E/DX2 analytically  !
+ ! A29   A(7,5,17)             109.1779         calculate D2E/DX2 analytically  !
+ ! A30   A(16,5,17)            106.2588         calculate D2E/DX2 analytically  !
+ ! A31   A(4,6,18)             111.6936         calculate D2E/DX2 analytically  !
+ ! A32   A(4,6,19)             110.5608         calculate D2E/DX2 analytically  !
+ ! A33   A(4,6,20)             111.5019         calculate D2E/DX2 analytically  !
+ ! A34   A(18,6,19)            107.6678         calculate D2E/DX2 analytically  !
+ ! A35   A(18,6,20)            107.7056         calculate D2E/DX2 analytically  !
+ ! A36   A(19,6,20)            107.522          calculate D2E/DX2 analytically  !
+ ! A37   A(5,7,21)             111.3021         calculate D2E/DX2 analytically  !
+ ! A38   A(5,7,22)             110.8575         calculate D2E/DX2 analytically  !
+ ! A39   A(5,7,23)             110.5421         calculate D2E/DX2 analytically  !
+ ! A40   A(21,7,22)            108.0619         calculate D2E/DX2 analytically  !
+ ! A41   A(21,7,23)            108.1205         calculate D2E/DX2 analytically  !
+ ! A42   A(22,7,23)            107.8296         calculate D2E/DX2 analytically  !
+ ! D1    D(4,1,2,3)             73.0535         calculate D2E/DX2 analytically  !
+ ! D2    D(4,1,2,12)           -50.4099         calculate D2E/DX2 analytically  !
+ ! D3    D(4,1,2,13)          -165.3891         calculate D2E/DX2 analytically  !
+ ! D4    D(10,1,2,3)           -51.6835         calculate D2E/DX2 analytically  !
+ ! D5    D(10,1,2,12)         -175.147          calculate D2E/DX2 analytically  !
+ ! D6    D(10,1,2,13)           69.8739         calculate D2E/DX2 analytically  !
+ ! D7    D(11,1,2,3)          -166.0325         calculate D2E/DX2 analytically  !
+ ! D8    D(11,1,2,12)           70.504          calculate D2E/DX2 analytically  !
+ ! D9    D(11,1,2,13)          -44.4751         calculate D2E/DX2 analytically  !
+ ! D10   D(2,1,4,6)            -74.0672         calculate D2E/DX2 analytically  !
+ ! D11   D(2,1,4,8)            164.1336         calculate D2E/DX2 analytically  !
+ ! D12   D(2,1,4,9)             49.9356         calculate D2E/DX2 analytically  !
+ ! D13   D(10,1,4,6)            50.6922         calculate D2E/DX2 analytically  !
+ ! D14   D(10,1,4,8)           -71.1071         calculate D2E/DX2 analytically  !
+ ! D15   D(10,1,4,9)           174.695          calculate D2E/DX2 analytically  !
+ ! D16   D(11,1,4,6)           165.0228         calculate D2E/DX2 analytically  !
+ ! D17   D(11,1,4,8)            43.2235         calculate D2E/DX2 analytically  !
+ ! D18   D(11,1,4,9)           -70.9745         calculate D2E/DX2 analytically  !
+ ! D19   D(1,2,3,5)           -179.8121         calculate D2E/DX2 analytically  !
+ ! D20   D(1,2,3,14)            58.5632         calculate D2E/DX2 analytically  !
+ ! D21   D(1,2,3,15)           -57.4303         calculate D2E/DX2 analytically  !
+ ! D22   D(12,2,3,5)           -55.9895         calculate D2E/DX2 analytically  !
+ ! D23   D(12,2,3,14)         -177.6141         calculate D2E/DX2 analytically  !
+ ! D24   D(12,2,3,15)           66.3923         calculate D2E/DX2 analytically  !
+ ! D25   D(13,2,3,5)            58.6553         calculate D2E/DX2 analytically  !
+ ! D26   D(13,2,3,14)          -62.9693         calculate D2E/DX2 analytically  !
+ ! D27   D(13,2,3,15)         -178.9629         calculate D2E/DX2 analytically  !
+ ! D28   D(2,3,5,7)             60.0007         calculate D2E/DX2 analytically  !
+ ! D29   D(2,3,5,16)          -178.256          calculate D2E/DX2 analytically  !
+ ! D30   D(2,3,5,17)           -62.564          calculate D2E/DX2 analytically  !
+ ! D31   D(14,3,5,7)          -177.9981         calculate D2E/DX2 analytically  !
+ ! D32   D(14,3,5,16)          -56.2548         calculate D2E/DX2 analytically  !
+ ! D33   D(14,3,5,17)           59.4372         calculate D2E/DX2 analytically  !
+ ! D34   D(15,3,5,7)           -62.5273         calculate D2E/DX2 analytically  !
+ ! D35   D(15,3,5,16)           59.2159         calculate D2E/DX2 analytically  !
+ ! D36   D(15,3,5,17)          174.9079         calculate D2E/DX2 analytically  !
+ ! D37   D(1,4,6,18)            62.225          calculate D2E/DX2 analytically  !
+ ! D38   D(1,4,6,19)          -177.9024         calculate D2E/DX2 analytically  !
+ ! D39   D(1,4,6,20)           -58.3397         calculate D2E/DX2 analytically  !
+ ! D40   D(8,4,6,18)          -176.163          calculate D2E/DX2 analytically  !
+ ! D41   D(8,4,6,19)           -56.2904         calculate D2E/DX2 analytically  !
+ ! D42   D(8,4,6,20)            63.2723         calculate D2E/DX2 analytically  !
+ ! D43   D(9,4,6,18)           -61.8188         calculate D2E/DX2 analytically  !
+ ! D44   D(9,4,6,19)            58.0538         calculate D2E/DX2 analytically  !
+ ! D45   D(9,4,6,20)           177.6165         calculate D2E/DX2 analytically  !
+ ! D46   D(3,5,7,21)            63.2037         calculate D2E/DX2 analytically  !
+ ! D47   D(3,5,7,22)           -57.1067         calculate D2E/DX2 analytically  !
+ ! D48   D(3,5,7,23)          -176.6237         calculate D2E/DX2 analytically  !
+ ! D49   D(16,5,7,21)          -58.4335         calculate D2E/DX2 analytically  !
+ ! D50   D(16,5,7,22)         -178.7439         calculate D2E/DX2 analytically  !
+ ! D51   D(16,5,7,23)           61.7391         calculate D2E/DX2 analytically  !
+ ! D52   D(17,5,7,21)         -174.0788         calculate D2E/DX2 analytically  !
+ ! D53   D(17,5,7,22)           65.6108         calculate D2E/DX2 analytically  !
+ ! D54   D(17,5,7,23)          -53.9063         calculate D2E/DX2 analytically  !
+ --------------------------------------------------------------------------------
+ Trust Radius=3.00D-01 FncErr=1.00D-07 GrdErr=1.00D-06 EigMax=2.50D+02 EigMin=1.00D-04
+ Number of steps in this run=    138 maximum allowed number of steps=    138.
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+
+ Leave Link  103 at Sun Sep 29 13:19:41 2019, MaxMem=   671088640 cpu:               1.5 elap:               0.8
+ (Enter /shared/centos7/gaussian/g16/l202.exe)
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        1.357313   -0.998756    0.313130
+      2          6           0        0.968266    0.156691    1.170771
+      3          6           0       -0.065822    1.080102    0.576671
+      4          6           0        2.212398   -0.679678   -0.866719
+      5          6           0       -0.426157    2.237987    1.477318
+      6          6           0        1.531998   -0.015352   -1.991581
+      7          6           0        0.737954    3.129954    1.822522
+      8          1           0        2.663301   -1.641587   -1.241626
+      9          1           0        3.077757   -0.055674   -0.538804
+     10          1           0        0.445876   -1.537327   -0.022728
+     11          1           0        1.911223   -1.720492    0.947893
+     12          1           0        1.863405    0.742035    1.433039
+     13          1           0        0.574269   -0.238339    2.130965
+     14          1           0       -0.981820    0.508187    0.350872
+     15          1           0        0.300938    1.471961   -0.394451
+     16          1           0       -1.219010    2.851993    0.975420
+     17          1           0       -0.876463    1.853244    2.408155
+     18          1           0        1.126311    0.971383   -1.698917
+     19          1           0        2.250352    0.149552   -2.848499
+     20          1           0        0.688268   -0.627056   -2.375546
+     21          1           0        1.144945    3.612317    0.932992
+     22          1           0        1.563928    2.540520    2.308518
+     23          1           0        0.418588    3.936115    2.543629
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4          5
+     1  C    0.000000
+     2  C    1.490625   0.000000
+     3  C    2.533065   1.508304   0.000000
+     4  C    1.491652   2.529574   3.220325   0.000000
+     5  C    3.874610   2.523921   1.510531   4.579220   0.000000
+     6  C    2.511830   3.216809   3.216981   1.472952   4.576589
+     7  C    4.439383   3.052559   2.529841   4.890737   1.506627
+     8  H    2.129812   3.453492   4.261679   1.126559   5.655837
+     9  H    2.138953   2.723545   3.523686   1.116134   4.647907
+    10  H    1.110665   2.137061   2.733505   2.137401   4.154945
+    11  H    1.109344   2.112500   3.448165   2.113485   4.627439
+    12  H    2.130887   1.101220   2.137656   2.726161   2.735311
+    13  H    2.120358   1.110520   2.136313   3.444468   2.749600
+    14  H    2.782776   2.144439   1.103233   3.618919   2.137721
+    15  H    2.778676   2.150624   1.109570   2.916551   2.149182
+    16  H    4.680206   3.476635   2.151380   5.257446   1.121392
+    17  H    4.184828   2.795074   2.146909   5.165420   1.103295
+    18  H    2.825446   2.987275   2.571246   2.144328   3.755384
+    19  H    3.480234   4.218807   4.238205   2.148608   5.498905
+    20  H    2.795489   3.642667   3.492653   2.145297   4.928993
+    21  H    4.657394   3.468300   2.829317   4.774897   2.157182
+    22  H    4.068260   2.707752   2.790735   4.568624   2.177811
+    23  H    5.496297   4.058439   3.501483   6.012801   2.175834
+                    6          7          8          9         10
+     6  C    0.000000
+     7  C    5.007078   0.000000
+     8  H    2.118235   5.988620   0.000000
+     9  H    2.121687   4.604212   1.783494   0.000000
+    10  H    2.715225   5.027302   2.532500   3.064054   0.000000
+    11  H    3.419331   5.066396   2.316428   2.518469   1.767172
+    12  H    3.522993   2.668425   3.670874   2.449317   3.053545
+    13  H    4.238202   3.386345   4.208031   3.664490   2.518382
+    14  H    3.475695   3.463674   4.521557   4.193998   2.522304
+    15  H    2.505680   2.802658   3.999080   3.172574   3.035621
+    16  H    4.959113   2.150477   6.338760   5.404590   4.799403
+    17  H    5.352570   2.139929   6.169657   5.288136   4.376499
+    18  H    1.106291   4.148588   3.065789   2.491756   3.092931
+    19  H    1.130281   5.743569   2.441464   2.461993   3.753222
+    20  H    1.110627   5.633948   2.493151   3.067533   2.534383
+    21  H    4.675780   1.090678   5.885394   4.399557   5.284026
+    22  H    5.002434   1.125104   5.594833   4.139944   4.828414
+    23  H    6.117344   1.127778   7.104762   5.701486   6.045287
+                   11         12         13         14         15
+    11  H    0.000000
+    12  H    2.510317   0.000000
+    13  H    2.320320   1.763550   0.000000
+    14  H    3.700424   3.053043   2.479405   0.000000
+    15  H    3.819249   2.512730   3.062281   1.769133   0.000000
+    16  H    5.541365   3.763325   3.755168   2.437159   2.468051
+    17  H    4.761843   3.113280   2.560503   2.460222   3.063699
+    18  H    3.855889   3.225687   4.054156   2.976642   1.622791
+    19  H    4.245547   4.339623   5.268281   4.561965   3.401666
+    20  H    3.706275   4.214342   4.524681   3.392834   2.912153
+    21  H    5.387602   3.000791   4.072881   3.807573   2.656234
+    22  H    4.486439   2.022547   2.955167   3.800472   3.169070
+    23  H    6.063953   3.677370   4.197689   4.303489   3.836432
+                   16         17         18         19         20
+    16  H    0.000000
+    17  H    1.779766   0.000000
+    18  H    4.023593   4.653689   0.000000
+    19  H    5.827693   6.349170   1.805661   0.000000
+    20  H    5.193309   5.611066   1.790172   1.807461   0.000000
+    21  H    2.483581   3.058845   3.728515   5.245221   5.396968
+    22  H    3.101437   2.537279   4.325880   5.725621   5.721955
+    23  H    2.513230   2.456392   5.223955   6.838747   6.715172
+                   21         22         23
+    21  H    0.000000
+    22  H    1.793423   0.000000
+    23  H    1.796271   1.820650   0.000000
+ Stoichiometry    C7H16
+ Framework group  C1[X(C7H16)]
+ Deg. of freedom    63
+ Full point group                 C1      NOp   1
+ Largest Abelian subgroup         C1      NOp   1
+ Largest concise Abelian subgroup C1      NOp   1
+                         Standard orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0       -1.401239    1.102689   -0.075824
+      2          6           0        0.077590    1.001256    0.081463
+      3          6           0        0.743211   -0.059592   -0.759092
+      4          6           0       -2.202023    0.006071    0.541592
+      5          6           0        2.239521   -0.129635   -0.564538
+      6          6           0       -2.170072   -1.286992   -0.163074
+      7          6           0        2.658979   -0.435459    0.849836
+      8          1           0       -3.272974    0.349569    0.606468
+      9          1           0       -1.874480   -0.141684    1.598303
+     10          1           0       -1.656550    1.188514   -1.153333
+     11          1           0       -1.725935    2.059115    0.382941
+     12          1           0        0.327130    0.828944    1.140105
+     13          1           0        0.524434    1.984366   -0.177537
+     14          1           0        0.532874    0.131544   -1.825089
+     15          1           0        0.297332   -1.049205   -0.528870
+     16          1           0        2.655220   -0.917270   -1.245968
+     17          1           0        2.696155    0.823951   -0.879847
+     18          1           0       -1.147911   -1.708741   -0.197602
+     19          1           0       -2.834118   -2.039171    0.357316
+     20          1           0       -2.530809   -1.189652   -1.208964
+     21          1           0        2.312129   -1.421403    1.161585
+     22          1           0        2.239009    0.324433    1.565411
+     23          1           0        3.782693   -0.413330    0.942907
+ ---------------------------------------------------------------------
+ Rotational constants (GHZ):           4.4122138           1.2400708           1.1510171
+ Leave Link  202 at Sun Sep 29 13:19:43 2019, MaxMem=   671088640 cpu:               3.4 elap:               1.7
+ (Enter /shared/centos7/gaussian/g16/l301.exe)
+ Standard basis: CC-pVTZ (5D, 7F)
+ Ernie: Thresh=  0.10000D-02 Tol=  0.10000D-05 Strict=F.
+ Ernie:  21 primitive shells out of 310 were deleted.
+ There are   485 symmetry adapted cartesian basis functions of A   symmetry.
+ There are   434 symmetry adapted basis functions of A   symmetry.
+   434 basis functions,   636 primitive gaussians,   485 cartesian basis functions
+    29 alpha electrons       29 beta electrons
+       nuclear repulsion energy       327.3491839081 Hartrees.
+ IExCor= 4336 DFT=T Ex+Corr=M062X ExCW=0 ScaHFX=  0.540000
+ ScaDFX=  1.000000  1.000000  1.000000  1.000000 ScalE2=  1.000000  1.000000
+ IRadAn=      5 IRanWt=     -1 IRanGd=            0 ICorTp=0 IEmpDi=  4
+ NAtoms=   23 NActive=   23 NUniq=   23 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned on.
+ Leave Link  301 at Sun Sep 29 13:19:44 2019, MaxMem=   671088640 cpu:               1.5 elap:               0.8
+ (Enter /shared/centos7/gaussian/g16/l302.exe)
+ NPDir=0 NMtPBC=     1 NCelOv=     1 NCel=       1 NClECP=     1 NCelD=      1
+         NCelK=      1 NCelE2=     1 NClLst=     1 CellRange=     0.0.
+ One-electron integrals computed using PRISM.
+ One-electron integral symmetry used in STVInt
+ NBasis=   434 RedAO= T EigKep=  3.02D-04  NBF=   434
+ NBsUse=   434 1.00D-06 EigRej= -1.00D+00 NBFU=   434
+ Precomputing XC quadrature grid using
+ IXCGrd= 4 IRadAn=           5 IRanWt=          -1 IRanGd=           0 AccXCQ= 0.00D+00.
+ Generated NRdTot=       0 NPtTot=           0 NUsed=           0 NTot=          32
+ NSgBfM=   485   485   485   485   485 MxSgAt=    23 MxSgA2=    23.
+ Leave Link  302 at Sun Sep 29 13:20:51 2019, MaxMem=   671088640 cpu:             134.3 elap:              67.2
+ (Enter /shared/centos7/gaussian/g16/l303.exe)
+ DipDrv:  MaxL=1.
+ Leave Link  303 at Sun Sep 29 13:20:57 2019, MaxMem=   671088640 cpu:              11.6 elap:               5.8
+ (Enter /shared/centos7/gaussian/g16/l401.exe)
+ ExpMin= 1.03D-01 ExpMax= 8.24D+03 ExpMxC= 2.81D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor= 1009 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor= 1009 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Petite list used in FoFCou.
+ Harris En= -276.328574436517    
+ JPrj=0 DoOrth=F DoCkMO=F.
+ Leave Link  401 at Sun Sep 29 13:21:40 2019, MaxMem=   671088640 cpu:              86.4 elap:              43.2
+ (Enter /shared/centos7/gaussian/g16/l502.exe)
+ Integral symmetry usage will be decided dynamically.
+ Closed shell SCF:
+ Using DIIS extrapolation, IDIIS=  1040.
+ NGot=   671088640 LenX=   670604095 LenY=   670368385
+ Requested convergence on RMS density matrix=1.00D-08 within 900 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ Fock matrices will be formed incrementally for  20 cycles.
+ Integral accuracy reduced to 1.0D-05 until final iterations.
+
+ Cycle   1  Pass 0  IDiag  1:
+ FoFJK:  IHMeth= 1 ICntrl=       0 DoSepK=F KAlg= 0 I1Cent=           0 FoldK=F
+ IRaf= 940000000 NMat=       1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 IDoP0=0 IntGTp=1.
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=F BraDBF=F KetDBF=F FulRan=T
+         wScrn=  0.000000 ICntrl=         0 IOpCl=  0 I1Cent=           0 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ E= -275.961619319249    
+ DIIS: error= 2.51D-02 at cycle   1 NSaved=   1.
+ NSaved= 1 IEnMin= 1 EnMin= -275.961619319249     IErMin= 1 ErrMin= 2.51D-02
+ ErrMax= 2.51D-02  0.00D+00 EMaxC= 1.00D-01 BMatC= 3.74D-01 BMatP= 3.74D-01
+ IDIUse=3 WtCom= 7.49D-01 WtEn= 2.51D-01
+ Coeff-Com:  0.100D+01
+ Coeff-En:   0.100D+01
+ Coeff:      0.100D+01
+ Gap=     0.356 Goal=   None    Shift=    0.000
+ GapD=    0.356 DampG=1.000 DampE=0.500 DampFc=0.5000 IDamp=-1.
+ Damping current iteration by 5.00D-01
+ RMSDP=1.89D-03 MaxDP=6.57D-02              OVMax= 1.69D-01
+
+ Cycle   2  Pass 0  IDiag  1:
+ RMSU=  9.41D-04    CP:  9.90D-01
+ E= -276.139913021215     Delta-E=       -0.178293701966 Rises=F Damp=T
+ DIIS: error= 3.42D-03 at cycle   2 NSaved=   2.
+ NSaved= 2 IEnMin= 2 EnMin= -276.139913021215     IErMin= 2 ErrMin= 3.42D-03
+ ErrMax= 3.42D-03  0.00D+00 EMaxC= 1.00D-01 BMatC= 1.86D-02 BMatP= 3.74D-01
+ IDIUse=3 WtCom= 9.66D-01 WtEn= 3.42D-02
+ Coeff-Com: -0.500D-01 0.105D+01
+ Coeff-En:   0.000D+00 0.100D+01
+ Coeff:     -0.483D-01 0.105D+01
+ Gap=     0.442 Goal=   None    Shift=    0.000
+ RMSDP=5.18D-04 MaxDP=1.55D-02 DE=-1.78D-01 OVMax= 9.16D-02
+
+ Cycle   3  Pass 0  IDiag  1:
+ RMSU=  5.08D-04    CP:  9.96D-01  9.09D-01
+ E= -276.319140537716     Delta-E=       -0.179227516501 Rises=F Damp=F
+ DIIS: error= 2.14D-03 at cycle   3 NSaved=   3.
+ NSaved= 3 IEnMin= 3 EnMin= -276.319140537716     IErMin= 3 ErrMin= 2.14D-03
+ ErrMax= 2.14D-03  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.78D-03 BMatP= 1.86D-02
+ IDIUse=3 WtCom= 9.79D-01 WtEn= 2.14D-02
+ Coeff-Com: -0.512D-01 0.246D+00 0.805D+00
+ Coeff-En:   0.000D+00 0.000D+00 0.100D+01
+ Coeff:     -0.501D-01 0.240D+00 0.810D+00
+ Gap=     0.414 Goal=   None    Shift=    0.000
+ RMSDP=9.50D-05 MaxDP=3.07D-03 DE=-1.79D-01 OVMax= 1.02D-02
+
+ Cycle   4  Pass 0  IDiag  1:
+ RMSU=  7.52D-05    CP:  9.95D-01  9.56D-01  9.27D-01
+ E= -276.321585955697     Delta-E=       -0.002445417981 Rises=F Damp=F
+ DIIS: error= 7.60D-04 at cycle   4 NSaved=   4.
+ NSaved= 4 IEnMin= 4 EnMin= -276.321585955697     IErMin= 4 ErrMin= 7.60D-04
+ ErrMax= 7.60D-04  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.53D-04 BMatP= 2.78D-03
+ IDIUse=3 WtCom= 9.92D-01 WtEn= 7.60D-03
+ Coeff-Com: -0.130D-01 0.350D-01 0.267D+00 0.711D+00
+ Coeff-En:   0.000D+00 0.000D+00 0.000D+00 0.100D+01
+ Coeff:     -0.129D-01 0.348D-01 0.265D+00 0.713D+00
+ Gap=     0.415 Goal=   None    Shift=    0.000
+ RMSDP=3.14D-05 MaxDP=1.04D-03 DE=-2.45D-03 OVMax= 3.05D-03
+
+ Cycle   5  Pass 0  IDiag  1:
+ RMSU=  1.87D-05    CP:  9.95D-01  9.50D-01  9.60D-01  7.65D-01
+ E= -276.321820111008     Delta-E=       -0.000234155311 Rises=F Damp=F
+ DIIS: error= 1.55D-04 at cycle   5 NSaved=   5.
+ NSaved= 5 IEnMin= 5 EnMin= -276.321820111008     IErMin= 5 ErrMin= 1.55D-04
+ ErrMax= 1.55D-04  0.00D+00 EMaxC= 1.00D-01 BMatC= 1.74D-05 BMatP= 2.53D-04
+ IDIUse=3 WtCom= 9.98D-01 WtEn= 1.55D-03
+ Coeff-Com: -0.169D-02 0.105D-02 0.548D-01 0.261D+00 0.685D+00
+ Coeff-En:   0.000D+00 0.000D+00 0.000D+00 0.000D+00 0.100D+01
+ Coeff:     -0.168D-02 0.104D-02 0.547D-01 0.261D+00 0.685D+00
+ Gap=     0.414 Goal=   None    Shift=    0.000
+ RMSDP=6.61D-06 MaxDP=3.04D-04 DE=-2.34D-04 OVMax= 7.39D-04
+
+ Initial convergence to 1.0D-05 achieved.  Increase integral accuracy.
+ Cycle   6  Pass 1  IDiag  1:
+ E= -276.321824314359     Delta-E=       -0.000004203351 Rises=F Damp=F
+ DIIS: error= 4.66D-05 at cycle   1 NSaved=   1.
+ NSaved= 1 IEnMin= 1 EnMin= -276.321824314359     IErMin= 1 ErrMin= 4.66D-05
+ ErrMax= 4.66D-05  0.00D+00 EMaxC= 1.00D-01 BMatC= 1.64D-06 BMatP= 1.64D-06
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Coeff-Com:  0.100D+01
+ Coeff:      0.100D+01
+ Gap=     0.415 Goal=   None    Shift=    0.000
+ RMSDP=6.61D-06 MaxDP=3.04D-04 DE=-4.20D-06 OVMax= 2.75D-04
+
+ Cycle   7  Pass 1  IDiag  1:
+ RMSU=  1.13D-05    CP:  1.00D+00
+ E= -276.321825140992     Delta-E=       -0.000000826633 Rises=F Damp=F
+ DIIS: error= 2.56D-05 at cycle   2 NSaved=   2.
+ NSaved= 2 IEnMin= 2 EnMin= -276.321825140992     IErMin= 2 ErrMin= 2.56D-05
+ ErrMax= 2.56D-05  0.00D+00 EMaxC= 1.00D-01 BMatC= 5.54D-07 BMatP= 1.64D-06
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Coeff-Com:  0.333D+00 0.667D+00
+ Coeff:      0.333D+00 0.667D+00
+ Gap=     0.414 Goal=   None    Shift=    0.000
+ RMSDP=1.38D-06 MaxDP=6.46D-05 DE=-8.27D-07 OVMax= 1.44D-04
+
+ Cycle   8  Pass 1  IDiag  1:
+ RMSU=  1.38D-06    CP:  1.00D+00  9.99D-01
+ E= -276.321825621437     Delta-E=       -0.000000480445 Rises=F Damp=F
+ DIIS: error= 8.58D-06 at cycle   3 NSaved=   3.
+ NSaved= 3 IEnMin= 3 EnMin= -276.321825621437     IErMin= 3 ErrMin= 8.58D-06
+ ErrMax= 8.58D-06  0.00D+00 EMaxC= 1.00D-01 BMatC= 6.31D-08 BMatP= 5.54D-07
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Coeff-Com: -0.498D-02 0.242D+00 0.763D+00
+ Coeff:     -0.498D-02 0.242D+00 0.763D+00
+ Gap=     0.414 Goal=   None    Shift=    0.000
+ RMSDP=4.40D-07 MaxDP=1.64D-05 DE=-4.80D-07 OVMax= 4.39D-05
+
+ Cycle   9  Pass 1  IDiag  1:
+ RMSU=  2.88D-07    CP:  1.00D+00  1.02D+00  8.09D-01
+ E= -276.321825682253     Delta-E=       -0.000000060815 Rises=F Damp=F
+ DIIS: error= 2.21D-06 at cycle   4 NSaved=   4.
+ NSaved= 4 IEnMin= 4 EnMin= -276.321825682253     IErMin= 4 ErrMin= 2.21D-06
+ ErrMax= 2.21D-06  0.00D+00 EMaxC= 1.00D-01 BMatC= 1.89D-09 BMatP= 6.31D-08
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Coeff-Com: -0.124D-01 0.608D-01 0.256D+00 0.695D+00
+ Coeff:     -0.124D-01 0.608D-01 0.256D+00 0.695D+00
+ Gap=     0.414 Goal=   None    Shift=    0.000
+ RMSDP=8.72D-08 MaxDP=3.43D-06 DE=-6.08D-08 OVMax= 8.38D-06
+
+ Cycle  10  Pass 1  IDiag  1:
+ RMSU=  8.05D-08    CP:  1.00D+00  1.02D+00  8.11D-01  9.02D-01
+ E= -276.321825684176     Delta-E=       -0.000000001923 Rises=F Damp=F
+ DIIS: error= 3.61D-07 at cycle   5 NSaved=   5.
+ NSaved= 5 IEnMin= 5 EnMin= -276.321825684176     IErMin= 5 ErrMin= 3.61D-07
+ ErrMax= 3.61D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 7.68D-11 BMatP= 1.89D-09
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Coeff-Com: -0.122D-02-0.109D-01-0.269D-01 0.894D-01 0.950D+00
+ Coeff:     -0.122D-02-0.109D-01-0.269D-01 0.894D-01 0.950D+00
+ Gap=     0.414 Goal=   None    Shift=    0.000
+ RMSDP=3.10D-08 MaxDP=7.35D-07 DE=-1.92D-09 OVMax= 2.62D-06
+
+ Cycle  11  Pass 1  IDiag  1:
+ RMSU=  1.86D-08    CP:  1.00D+00  1.02D+00  8.12D-01  9.82D-01  1.11D+00
+ E= -276.321825684250     Delta-E=       -0.000000000074 Rises=F Damp=F
+ DIIS: error= 1.66D-07 at cycle   6 NSaved=   6.
+ NSaved= 6 IEnMin= 6 EnMin= -276.321825684250     IErMin= 6 ErrMin= 1.66D-07
+ ErrMax= 1.66D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.08D-11 BMatP= 7.68D-11
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Coeff-Com:  0.482D-03-0.986D-02-0.331D-01-0.184D-01 0.422D+00 0.638D+00
+ Coeff:      0.482D-03-0.986D-02-0.331D-01-0.184D-01 0.422D+00 0.638D+00
+ Gap=     0.414 Goal=   None    Shift=    0.000
+ RMSDP=7.29D-09 MaxDP=2.48D-07 DE=-7.40D-11 OVMax= 7.24D-07
+
+ SCF Done:  E(RM062X) =  -276.321825684     A.U. after   11 cycles
+            NFock= 11  Conv=0.73D-08     -V/T= 2.0067
+ KE= 2.744821290188D+02 PE=-1.293097555478D+03 EE= 4.149444168668D+02
+ Leave Link  502 at Sun Sep 29 13:36:34 2019, MaxMem=   671088640 cpu:            1788.0 elap:             894.1
+ (Enter /shared/centos7/gaussian/g16/l801.exe)
+ DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
+ Range of M.O.s used for correlation:     1   434
+ NBasis=   434 NAE=    29 NBE=    29 NFC=     0 NFV=     0
+ NROrb=    434 NOA=    29 NOB=    29 NVA=   405 NVB=   405
+
+ **** Warning!!: The largest alpha MO coefficient is  0.10782092D+02
+
+ Leave Link  801 at Sun Sep 29 13:36:35 2019, MaxMem=   671088640 cpu:               1.4 elap:               0.7
+ (Enter /shared/centos7/gaussian/g16/l1101.exe)
+ Using compressed storage, NAtomX=    23.
+ Will process     24 centers per pass.
+ Leave Link 1101 at Sun Sep 29 13:37:11 2019, MaxMem=   671088640 cpu:              71.6 elap:              35.8
+ (Enter /shared/centos7/gaussian/g16/l1102.exe)
+ Symmetrizing basis deriv contribution to polar:
+ IMax=3 JMax=2 DiffMx= 0.00D+00
+ Leave Link 1102 at Sun Sep 29 13:37:13 2019, MaxMem=   671088640 cpu:               4.4 elap:               2.2
+ (Enter /shared/centos7/gaussian/g16/l1110.exe)
+ Forming Gx(P) for the SCF density, NAtomX=    23.
+ Integral derivatives from FoFJK, PRISM(SPDF).
+ Do as many integral derivatives as possible in FoFJK.
+ G2DrvN: MDV=     671086848.
+ G2DrvN: will do    24 centers at a time, making    1 passes.
+ Calling FoFCou, ICntrl=  3107 FMM=F I1Cent=   0 AccDes= 0.00D+00.
+ FoFJK:  IHMeth= 1 ICntrl=    3107 DoSepK=F KAlg= 0 I1Cent=           0 FoldK=F
+ IRaf=         0 NMat=       1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 IDoP0=0 IntGTp=1.
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=F BraDBF=F KetDBF=F FulRan=T
+         wScrn=  0.000000 ICntrl=      3107 IOpCl=  0 I1Cent=           0 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ End of G2Drv F.D. properties file   721 does not exist.
+ End of G2Drv F.D. properties file   722 does not exist.
+ End of G2Drv F.D. properties file   788 does not exist.
+ Leave Link 1110 at Sun Sep 29 14:17:03 2019, MaxMem=   671088640 cpu:            4779.1 elap:            2389.7
+ (Enter /shared/centos7/gaussian/g16/l1002.exe)
+ Minotr:  Closed shell wavefunction.
+          IDoAtm=11111111111111111111111
+          Direct CPHF calculation.
+          Differentiating once with respect to nuclear coordinates.
+          Requested convergence is 1.0D-08 RMS, and 1.0D-07 maximum.
+          Secondary convergence is 1.0D-12 RMS, and 1.0D-12 maximum.
+          NewPWx=T KeepS1=F KeepF1=F KeepIn=T MapXYZ=F SortEE=F KeepMc=T.
+         6918 words used for storage of precomputed grid.
+ Two-electron integrals replicated using symmetry.
+          MDV=     671088640 using IRadAn=       1.
+          Solving linear equations simultaneously, MaxMat=     380.
+ FoF2E skips out because all densities are zero.
+ CalDSu exits because no D1Ps are significant.
+ FoFJK:  IHMeth= 1 ICntrl=       0 DoSepK=F KAlg= 0 I1Cent=           0 FoldK=F
+ IRaf= 920000000 NMat=      69 IRICut=     172 DoRegI=T DoRafI=T ISym2E= 2 IDoP0=3 IntGTp=3.
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=F BraDBF=F KetDBF=F FulRan=T
+         wScrn=  0.000000 ICntrl=         0 IOpCl=  0 I1Cent=           0 NGrid=           0
+         NMat0=   69 NMatS0=     69 NMatT0=    0 NMatD0=   69 NMtDS0=    0 NMtDT0=    0
+ Integrals replicated using symmetry in FoFCou.
+ Raff kept on since  88.26% of shell-pairs survive, threshold=   0.20 IRatSp=88.
+          There are    72 degrees of freedom in the 1st order CPHF.  IDoFFX=6 NUNeed=     0.
+     66 vectors produced by pass  0 Test12= 1.63D-14 1.39D-09 XBig12= 5.46D-02 4.18D-02.
+ AX will form    66 AO Fock derivatives at one time.
+     66 vectors produced by pass  1 Test12= 1.63D-14 1.39D-09 XBig12= 3.48D-03 6.12D-03.
+     66 vectors produced by pass  2 Test12= 1.63D-14 1.39D-09 XBig12= 5.07D-05 9.12D-04.
+     66 vectors produced by pass  3 Test12= 1.63D-14 1.39D-09 XBig12= 3.99D-07 7.47D-05.

@@ -15,44 +15,47 @@ if os.getenv('SLURM_ARRAY_TASK_ID'):
 else:
     i = 1
 
-if i % 1:
+if i % 4 == 1:
     # fmax of 0.25
-    from systematic0 import *
+    from systematic.systematic0 import *
     directory = "loose"
-elif i % 2:
+elif i % 4 == 2:
     # fmax of 0.1
-    from systematic1 import *
+    from systematic.systematic1 import *
     directory = "med"
-elif i % 3:
+elif i % 4 == 3:
     # fmax of 0.5
-    from systematic2 import *
+    from systematic.systematic2 import *
     directory = "tight"
-elif i % 3:
+elif i % 4 == 0:
     # fmax of 0.01
-    from systematic3 import *
+    from systematic.systematic3 import *
     directory = "verytight"
 
 #%%
 smiles = [
     "COC=CO",
-    "CO",
+    "COO",
     "C(C)(C)OC=CO",
-    "OC=COC",
+    "OC=C(C)OC",
     "CCCCCCC"
 ]
 
-species = Species([smiles[i/4]])
-conf = species.conformers[smiles][0]
+species = Species([smiles[(i-1)/4]])
+smile = species.conformers.keys()[0]
+conf = species.conformers[smile][0]
 conf.ase_molecule.set_calculator(Hotbit())
-species.conformers[smiles] = systematic_search(conf)
+species.conformers[smile] = systematic_search(conf)
 
 #%%
 hotbit_results = []
-for conformer in species.conformers[smiles]:
+for conformer in species.conformers[smile]:
     hotbit_results.append([conformer.index, conformer.energy])
 
 df = pd.DataFrame(hotbit_results, columns=["index", "hotbit"])
-df.to_csv("./{}/hotbit.csv".format(directory))
+if not os.path.exists(os.path.join(".", directory, "species", smile)):
+    os.makedirs(os.path.join(".", directory, "species", smile))
+df.to_csv("./{0}/species/{1}/hotbit.csv".format(directory, smile))
 
 #%%
 job = Job(    

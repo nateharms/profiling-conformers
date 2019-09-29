@@ -1,0 +1,2959 @@
+Using Theano backend.
+/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+systematic2.py:179 systematic_search INFO There are 1296 unique conformers generated
+
+
+
+
+
+
+ _           _    _     _ _
+| |__   ___ | |_ | |__ |_| |_
+|  _ \ / _ \|  _||  _ \| |  _|
+| | | | ( ) | |_ | ( ) | | |_
+|_| |_|\___/ \__|\____/|_|\__|  ver. 0.1 (svn=exported)
+Distributed under GNU GPL; see /home/harms.n/Code/hotbit/lib/python/LICENSE
+Date: Mon Sep 23 09:55:10 2019
+Nodename: c3042
+Arch: x86_64
+Dir: /home/harms.n/Code/profiling-conformers
+System: H16C7
+       Charge= 0.0
+       Container Bravais: pbc:[0,0,0], cell:[0.00,0.00,0.00] Ang, 
+   cosines(12,13,23):[nan,nan,nan]
+Symmetry operations (if any):
+       0: pbc= False , kappa-points=1, M=1
+       1: pbc= False , kappa-points=1, M=1
+       2: pbc= False , kappa-points=1, M=1
+Electronic temperature: 0.02 eV
+Mixer: Anderson with memory = 3 , mixing parameter = 0.2
+23 atoms, 44 states, 44.0 electrons (22.0 filled states)
+Initial n ranges:[0,0] [0,0] [0,0] 
+Element C in /home/harms.n/Code/hotbit/param/C.elm
+    *fixed set C
+Element H in /home/harms.n/Code/hotbit/param/H.elm
+    *no comment
+
+Interactions:
+  CC in /home/harms.n/Code/hotbit/param/C_C.par
+    *test parameters 23.6 2008
+    *Quadratic original (r/r0)**2, r0=1.85*r_cov,
+    *Original repulsion (probably)
+  CH in /home/harms.n/Code/hotbit/param/C_H.par
+    *test parameters 23.6 2008
+  HC in /home/harms.n/Code/hotbit/param/C_H.par
+    *test parameters 23.6 2008
+  HH in /home/harms.n/Code/hotbit/param/H_H.par
+    *test parameters 23.6 2008
+
+Repulsions:
+  CC in /home/harms.n/Code/hotbit/param/C_C.par
+    *test parameters 23.6 2008
+  CH in /home/harms.n/Code/hotbit/param/C_H.par
+    *test parameters 23.6 2008
+  HH in /home/harms.n/Code/hotbit/param/H_H.par
+    *test parameters 23.6 2008
+
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.293 % filled.
+Hamiltonian ~85.021 % filled.
+Hamiltonian ~85.847 % filled.
+Hamiltonian ~87.913 % filled.
+Hamiltonian ~86.983 % filled.
+Hamiltonian ~87.397 % filled.
+Hamiltonian ~86.157 % filled.
+Hamiltonian ~86.570 % filled.
+Hamiltonian ~86.777 % filled.
+Hamiltonian ~90.083 % filled.
+Hamiltonian ~86.467 % filled.
+Hamiltonian ~88.017 % filled.
+Hamiltonian ~89.566 % filled.
+Hamiltonian ~91.839 % filled.
+Hamiltonian ~94.525 % filled.
+Hamiltonian ~92.562 % filled.
+Hamiltonian ~88.533 % filled.
+Hamiltonian ~94.628 % filled.
+Hamiltonian ~91.942 % filled.
+Hamiltonian ~94.938 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.041 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.041 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.388 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.599 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.769 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.041 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.938 % filled.
+Hamiltonian ~93.388 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.186 % filled.
+Hamiltonian ~89.876 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.566 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.116 % filled.
+Hamiltonian ~90.496 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.636 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.500 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.397 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.777 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.843 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.050 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.707 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.054 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.950 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.331 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.293 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.533 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.707 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.744 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.434 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.054 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.810 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.773 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.566 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.260 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.570 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.087 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.876 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.839 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.120 % filled.
+Hamiltonian ~90.806 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.500 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.326 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.702 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.252 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.322 % filled.
+Hamiltonian ~87.707 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.603 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.810 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.289 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.322 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.669 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.087 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.397 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.942 % filled.
+Hamiltonian ~94.008 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.112 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.736 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.913 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.500 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.777 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.876 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.773 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.500 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.087 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.364 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.331 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.983 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.087 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.983 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.640 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.434 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.500 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.430 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.289 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.496 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.430 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.293 % filled.
+Hamiltonian ~90.083 % filled.
+Hamiltonian ~92.149 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.905 % filled.
+Hamiltonian ~94.008 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.149 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.050 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.562 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.041 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.041 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.938 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.219 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.876 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.938 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.351 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.041 % filled.
+Hamiltonian ~93.079 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.322 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.459 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.599 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.252 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.839 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.636 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.120 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.050 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.707 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.256 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.876 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.496 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.393 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.430 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.702 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.839 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.628 % filled.
+Hamiltonian ~95.145 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.938 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.632 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.628 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.558 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Hamiltonian ~95.351 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.731 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.455 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.041 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.525 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.835 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.145 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.525 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.459 % filled.
+Hamiltonian ~91.116 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.355 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.116 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.736 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.252 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.909 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.426 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.599 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.496 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.942 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.318 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.041 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.318 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.665 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.112 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.455 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.455 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.421 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.558 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.455 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.145 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.558 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.351 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.421 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.938 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.322 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.045 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.116 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.153 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.430 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.946 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.603 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.876 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.496 % filled.
+Hamiltonian ~91.942 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.219 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.050 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.909 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.079 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.145 % filled.
+Hamiltonian ~95.248 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.318 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.872 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.938 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.455 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Hamiltonian ~95.455 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.525 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.558 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.558 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.938 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.938 % filled.
+Hamiltonian ~95.041 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.248 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.041 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.355 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.322 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.459 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.950 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.674 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.087 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.537 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.711 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.814 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.434 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.087 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.913 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.223 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.434 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.917 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.364 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.669 % filled.
+Hamiltonian ~92.562 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.149 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.946 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.397 % filled.
+Hamiltonian ~88.740 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.252 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.388 % filled.
+Hamiltonian ~93.182 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.289 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.430 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.289 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.182 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.769 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.529 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.050 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.533 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.326 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.186 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.083 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.603 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.880 % filled.
+Hamiltonian ~86.777 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.983 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.430 % filled.
+Hamiltonian ~89.669 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.674 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.124 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.434 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.814 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.983 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.223 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.190 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.331 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.124 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.607 % filled.
+Hamiltonian ~86.157 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.500 % filled.
+Hamiltonian ~86.777 % filled.
+Hamiltonian ~85.227 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.711 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.674 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.843 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.496 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.979 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.293 % filled.
+Hamiltonian ~86.674 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.603 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.599 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.355 % filled.
+Hamiltonian ~91.529 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.397 % filled.
+Hamiltonian ~88.017 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.603 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.012 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.149 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.979 % filled.
+Hamiltonian ~87.397 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.293 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.975 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.525 % filled.
+Hamiltonian ~94.628 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.632 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.533 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.120 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.190 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.360 % filled.
+Hamiltonian ~89.773 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.880 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.880 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.364 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.124 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.570 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.500 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.087 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.744 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.950 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.913 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.913 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.702 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.322 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.876 % filled.
+Hamiltonian ~88.017 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.806 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.905 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.041 % filled.
+Hamiltonian ~94.938 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.905 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.083 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.595 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.041 % filled.
+Hamiltonian ~95.145 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.835 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.045 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.806 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.835 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.145 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.041 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.459 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.702 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.355 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.186 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.529 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.736 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.533 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.946 % filled.
+Hamiltonian ~88.533 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.913 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.360 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.393 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.599 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.219 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.256 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.393 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.149 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.145 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.041 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.355 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.248 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Hamiltonian ~95.661 % filled.
+Hamiltonian ~95.661 % filled.
+Hamiltonian ~95.351 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.938 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.558 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.041 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.525 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.525 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.905 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.492 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.012 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.083 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.322 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.669 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.186 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.909 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.186 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.083 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.050 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.979 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.045 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.215 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.938 % filled.
+Hamiltonian ~94.318 % filled.
+Hamiltonian ~92.562 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.112 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.455 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.455 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.421 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.558 % filled.
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.455 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.145 % filled.
+Hamiltonian ~95.558 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.731 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.595 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.835 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.636 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.876 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.463 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.500 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.570 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.880 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.880 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.326 % filled.
+Hamiltonian ~89.669 % filled.
+Hamiltonian ~90.186 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.566 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.674 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.256 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.355 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.835 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.835 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.215 % filled.
+Hamiltonian ~91.116 % filled.
+Hamiltonian ~94.628 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.248 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.558 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.558 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.248 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.492 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.248 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.455 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.455 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.938 % filled.
+Hamiltonian ~92.665 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.492 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.355 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.492 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.872 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.496 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.256 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.153 % filled.
+Hamiltonian ~84.814 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.537 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.847 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.401 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.471 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.678 % filled.
+Hamiltonian ~83.678 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.917 % filled.
+Hamiltonian ~85.950 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.124 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.678 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.161 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.194 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.157 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.740 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.740 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.880 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.711 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.190 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.566 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.219 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.322 % filled.
+Hamiltonian ~88.843 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.983 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.810 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.322 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.012 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.393 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.674 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.983 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.880 % filled.
+Hamiltonian ~88.636 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.636 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.467 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.434 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.331 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.331 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.190 % filled.
+Hamiltonian ~87.397 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.331 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.091 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.298 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~82.851 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.331 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.331 % filled.
+Hamiltonian ~84.917 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.368 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.368 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.781 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.331 % filled.
+Hamiltonian ~86.880 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.467 % filled.
+Hamiltonian ~84.504 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.504 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.227 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.983 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.533 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.636 % filled.
+Hamiltonian ~86.260 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.331 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.777 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.979 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.909 % filled.
+Hamiltonian ~91.116 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.983 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.260 % filled.
+Hamiltonian ~86.674 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.599 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.599 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.017 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.434 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.950 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.702 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.045 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.736 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.740 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.777 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.537 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.504 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.467 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.950 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.227 % filled.
+Hamiltonian ~84.504 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.884 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.781 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.744 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.744 % filled.
+Hamiltonian ~86.054 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.504 % filled.
+Hamiltonian ~84.814 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.293 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.293 % filled.
+Hamiltonian ~90.083 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.529 % filled.
+Hamiltonian ~88.946 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.983 % filled.
+Hamiltonian ~89.669 % filled.
+Hamiltonian ~93.182 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.008 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.008 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.975 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.636 % filled.
+Hamiltonian ~92.562 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.421 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.421 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.008 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.702 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.083 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.388 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.802 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.252 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.669 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.120 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.256 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.570 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.707 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.810 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.467 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.640 % filled.
+Hamiltonian ~85.847 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.467 % filled.
+Hamiltonian ~88.120 % filled.
+Hamiltonian ~89.153 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.566 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.773 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.880 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.979 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.942 % filled.
+Hamiltonian ~94.938 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.041 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.835 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.116 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.938 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.455 % filled.
+Hamiltonian ~95.455 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.455 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.145 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.731 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.248 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.455 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.455 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.248 % filled.
+Hamiltonian ~93.595 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.008 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.702 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.909 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.773 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.636 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.983 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.430 % filled.
+Hamiltonian ~86.570 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.707 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.326 % filled.
+Hamiltonian ~87.603 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.983 % filled.
+Hamiltonian ~86.054 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.293 % filled.
+Hamiltonian ~89.463 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.632 % filled.
+Hamiltonian ~93.388 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.149 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.360 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.079 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.248 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.558 % filled.
+Hamiltonian ~95.558 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.248 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.008 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.351 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.455 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.455 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.455 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.041 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.731 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.145 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.248 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.248 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.872 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.219 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.872 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.017 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.533 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.636 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.467 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.744 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.950 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.021 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.880 % filled.
+Hamiltonian ~87.603 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.707 % filled.
+Hamiltonian ~86.364 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.124 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.570 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.223 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.529 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.045 % filled.
+Hamiltonian ~90.496 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.913 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.736 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.112 % filled.
+Hamiltonian ~94.525 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.525 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.905 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.909 % filled.
+Hamiltonian ~93.698 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.525 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.421 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.008 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.012 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.909 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.979 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.942 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.219 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.946 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.603 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.120 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.227 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.847 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.260 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.298 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.988 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.988 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.814 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.744 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.674 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.674 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.814 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.298 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.194 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.087 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.740 % filled.
+Hamiltonian ~89.566 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.293 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.331 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.843 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.116 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.975 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.769 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.702 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.913 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.806 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.252 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.872 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.632 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.430 % filled.
+Hamiltonian ~87.397 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.430 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.012 % filled.
+Hamiltonian ~89.669 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.190 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.364 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.364 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.917 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.674 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.950 % filled.
+Hamiltonian ~85.021 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.678 % filled.
+Hamiltonian ~83.884 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.781 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.744 % filled.
+Hamiltonian ~86.260 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.847 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.298 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.194 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.781 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.227 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.087 % filled.
+Hamiltonian ~86.880 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.401 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.401 % filled.
+Hamiltonian ~85.950 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.017 % filled.
+Hamiltonian ~90.909 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.876 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.397 % filled.
+Hamiltonian ~85.950 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.364 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.289 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.116 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.599 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.260 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.157 % filled.
+Hamiltonian ~87.500 % filled.
+Hamiltonian ~90.083 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.702 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.707 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.950 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.950 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.500 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.153 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.533 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.983 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.607 % filled.
+Hamiltonian ~84.504 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.298 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.054 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.364 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.814 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.504 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.884 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.161 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.711 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.124 % filled.
+Hamiltonian ~85.124 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.884 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.988 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.950 % filled.
+Hamiltonian ~86.157 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.050 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.773 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.810 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.847 % filled.
+Hamiltonian ~88.017 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.806 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.045 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.839 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.876 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.983 % filled.
+Hamiltonian ~90.186 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.355 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.562 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.186 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.603 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.397 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.773 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.599 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.979 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.120 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.570 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.983 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.260 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.017 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.223 % filled.
+Hamiltonian ~86.364 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.744 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.744 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.124 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.983 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.810 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.087 % filled.
+Hamiltonian ~88.120 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.847 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.326 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.050 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.252 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.769 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.736 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.913 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.252 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.318 % filled.
+Hamiltonian ~94.421 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.421 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.802 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.045 % filled.
+Hamiltonian ~94.112 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.421 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.421 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.008 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.806 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.219 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.979 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.599 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.566 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.326 % filled.
+Hamiltonian ~86.777 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.397 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.674 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.810 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.430 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.500 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.880 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.157 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.054 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.223 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.979 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.669 % filled.
+Hamiltonian ~90.186 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.810 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.599 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.665 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.525 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.421 % filled.
+Hamiltonian ~94.318 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.322 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.938 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.145 % filled.
+Hamiltonian ~95.145 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.145 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.835 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.285 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.421 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.731 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.628 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.459 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.496 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.355 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.913 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.740 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.120 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.054 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.434 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.537 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.331 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.190 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.500 % filled.
+Hamiltonian ~87.913 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.983 % filled.
+Hamiltonian ~85.434 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.157 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.120 % filled.
+Hamiltonian ~89.669 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.496 % filled.
+Hamiltonian ~89.669 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.293 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.702 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.421 % filled.
+Hamiltonian ~92.975 % filled.
+Hamiltonian ~94.421 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.905 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.219 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.525 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.835 % filled.
+Hamiltonian ~94.835 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.731 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.182 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.045 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.252 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.285 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.769 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.186 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.430 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.153 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.537 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.260 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.157 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.124 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.194 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.401 % filled.
+Hamiltonian ~84.504 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.744 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.157 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.467 % filled.
+Hamiltonian ~84.504 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.988 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.674 % filled.
+Hamiltonian ~88.223 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.045 % filled.
+Hamiltonian ~92.459 % filled.
+Hamiltonian ~90.599 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.777 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.909 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.215 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.525 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.525 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.388 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.702 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.285 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.628 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.628 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.008 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.186 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.669 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.979 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.149 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.496 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.810 % filled.
+Hamiltonian ~87.397 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.500 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.917 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.777 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.950 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.021 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.678 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.884 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~82.851 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.814 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.640 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.917 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.368 % filled.
+Hamiltonian ~83.368 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.298 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.640 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.603 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.017 % filled.
+Hamiltonian ~84.917 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.917 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.847 % filled.
+Hamiltonian ~89.153 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.322 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.012 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.397 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.467 % filled.
+Hamiltonian ~86.674 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.012 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.806 % filled.
+Hamiltonian ~86.054 % filled.
+Hamiltonian ~89.256 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.157 % filled.
+Hamiltonian ~85.950 % filled.
+Hamiltonian ~88.223 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.153 % filled.
+Hamiltonian ~86.983 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.227 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.331 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.293 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.223 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.153 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.364 % filled.
+Hamiltonian ~84.711 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.298 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.781 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.744 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.950 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.607 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.884 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.368 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~82.645 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.607 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.227 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.917 % filled.
+Hamiltonian ~83.368 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.574 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.434 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.537 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.223 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.533 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.777 % filled.
+Hamiltonian ~85.227 % filled.
+Hamiltonian ~87.087 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.979 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.012 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.909 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.636 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.467 % filled.
+Hamiltonian ~87.397 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.599 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.599 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.533 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.260 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.157 % filled.
+Hamiltonian ~91.012 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.252 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.632 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.533 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.880 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.603 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.017 % filled.
+Hamiltonian ~85.847 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.500 % filled.
+Hamiltonian ~86.260 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.537 % filled.
+Hamiltonian ~85.640 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.434 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.190 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.017 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.430 % filled.
+Hamiltonian ~87.913 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.847 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.500 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.636 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.289 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.322 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.566 % filled.
+Hamiltonian ~87.500 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.219 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.698 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.421 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.421 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.285 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.909 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.079 % filled.
+Hamiltonian ~94.318 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.318 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.112 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.736 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.186 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.388 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.698 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.459 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.566 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.120 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.050 % filled.
+Hamiltonian ~86.983 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.120 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.430 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.293 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.880 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.054 % filled.
+Hamiltonian ~85.950 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.326 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.496 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.289 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.463 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.223 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.219 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.839 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.938 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.145 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.938 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.942 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.145 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.455 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.455 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.455 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.248 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.731 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.351 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.455 % filled.
+Hamiltonian ~95.455 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.041 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.975 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.421 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.083 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.599 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.876 % filled.
+Hamiltonian ~87.500 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.087 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.810 % filled.
+Hamiltonian ~85.640 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.500 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.707 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.017 % filled.
+Hamiltonian ~86.983 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.950 % filled.
+Hamiltonian ~87.810 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.773 % filled.
+Hamiltonian ~91.942 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.595 % filled.
+Hamiltonian ~92.459 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.566 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.388 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.041 % filled.
+Hamiltonian ~95.455 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.455 % filled.
+Hamiltonian ~95.248 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.215 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.248 % filled.
+Hamiltonian ~95.351 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.351 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.351 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.731 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.525 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.041 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.145 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.041 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.355 % filled.
+Hamiltonian ~90.599 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.045 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.777 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.810 % filled.
+Hamiltonian ~88.223 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.157 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.537 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.537 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.087 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.017 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.669 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.669 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.017 % filled.
+Hamiltonian ~86.674 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.120 % filled.
+Hamiltonian ~91.529 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.525 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.525 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.975 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.946 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.665 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.041 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.351 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.248 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.525 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.529 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.112 % filled.
+Hamiltonian ~95.145 % filled.
+Hamiltonian ~95.041 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.628 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.393 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.496 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.876 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.736 % filled.
+Hamiltonian ~91.012 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.636 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.913 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.017 % filled.
+Hamiltonian ~85.744 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.913 % filled.
+Hamiltonian ~87.397 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.640 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.504 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.607 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.814 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.983 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.120 % filled.
+Hamiltonian ~87.397 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.331 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.124 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.227 % filled.
+Hamiltonian ~87.293 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.979 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.566 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.674 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.157 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.500 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.186 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.149 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.426 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.913 % filled.
+Hamiltonian ~87.500 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.017 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.942 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.252 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.599 % filled.
+Hamiltonian ~87.603 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.397 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.293 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.566 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.599 % filled.
+Hamiltonian ~88.636 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.674 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.674 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.843 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.355 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.459 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.669 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.467 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.880 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.331 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.603 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.326 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.777 % filled.
+Hamiltonian ~85.537 % filled.
+Hamiltonian ~84.917 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.298 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.777 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.777 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.777 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.021 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.227 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.880 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.913 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.566 % filled.
+Hamiltonian ~89.979 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.223 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.777 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.430 % filled.
+Hamiltonian ~90.806 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.252 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.355 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.979 % filled.
+Hamiltonian ~87.913 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.669 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.562 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.975 % filled.
+Hamiltonian ~92.252 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.017 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.326 % filled.
+Hamiltonian ~94.628 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.938 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.041 % filled.
+Hamiltonian ~92.355 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.669 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.909 % filled.
+Hamiltonian ~88.430 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.496 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.806 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.603 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.397 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.983 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.950 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.707 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.636 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.430 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.913 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.467 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.153 % filled.
+Hamiltonian ~89.773 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.942 % filled.
+Hamiltonian ~92.872 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.149 % filled.
+Hamiltonian ~88.636 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.355 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.731 % filled.
+Hamiltonian ~95.455 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.455 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.835 % filled.
+Hamiltonian ~92.562 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.455 % filled.
+Hamiltonian ~95.145 % filled.
+Hamiltonian ~95.455 % filled.
+Hamiltonian ~95.455 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.731 % filled.
+Hamiltonian ~93.079 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.938 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.145 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.628 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.355 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.909 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.252 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.979 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.909 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.219 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.566 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.360 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.050 % filled.
+Hamiltonian ~89.360 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.806 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.975 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.698 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.182 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.529 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.698 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.112 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.558 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.455 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.215 % filled.
+Hamiltonian ~95.558 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.455 % filled.
+Hamiltonian ~95.145 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.558 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.455 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.421 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.938 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.839 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.665 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.116 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.843 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.946 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.360 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.017 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.773 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.702 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.012 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.909 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.050 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.496 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.665 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.835 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.041 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.421 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.665 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.938 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.351 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Hamiltonian ~95.661 % filled.
+Hamiltonian ~95.455 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.525 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.558 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.145 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.938 % filled.
+Hamiltonian ~95.248 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~95.661 % filled.
+Hamiltonian ~95.248 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.318 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.149 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.975 % filled.
+systematic2.py:291 systematic_search INFO We have identified 1229 unique conformers for <Conformer "CCCCCCC">
+job.py:67 __init__ INFO Job directory not specified...setting Job directory to calculator directory
+job.py:74 __init__ INFO Job scratch directory not specified...setting Job scratch to calculator scratch
+job.py:364 calculate_species INFO Calculating geometries for <Species "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_427
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_428
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_425
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_426
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_350
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_349
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_421
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_422
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_346
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_345
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_348
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_347
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_342
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_341
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_344
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_343
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_804
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_803
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_802
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_801
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_808
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_807
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_806
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_805
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+Submitted batch job 7021580
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_423
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_810
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_1219
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_809
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_871
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_424
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_994
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_993
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_992
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_779
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_776
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_997
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_996
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_995
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_877
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_1000
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_999
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_879
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_878
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_630
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_629
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_621
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_623
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_622
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+Traceback (most recent call last):
+  File "profile.py", line 73, in <module>
+    job.calculate_species(species)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 384, in calculate_species
+    if not running.is_alive():
+AttributeError: 'str' object has no attribute 'is_alive'
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_624
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CCCCCCC_625
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CCCCCCC">
+Submitted batch job 7021581
+Submitted batch job 7021582
+Submitted batch job 7021583
+Submitted batch job 7021585
+Submitted batch job 7021586
+Submitted batch job 7021584
+Submitted batch job 7021587
+Submitted batch job 7021588
+Submitted batch job 7021590
+Submitted batch job 7021589
+Submitted batch job 7021591
+Submitted batch job 7021592
+Submitted batch job 7021593
+Submitted batch job 7021594
+Submitted batch job 7021595
+Submitted batch job 7021596
+Submitted batch job 7021597
+Submitted batch job 7021598
+Submitted batch job 7021599
+Submitted batch job 7021600
+Submitted batch job 7021601
+Submitted batch job 7021602
+Submitted batch job 7021603
+Submitted batch job 7021604
+Submitted batch job 7021605
+Submitted batch job 7021606
+Submitted batch job 7021607
+Submitted batch job 7021608
+Submitted batch job 7021609
+Submitted batch job 7021610
+Submitted batch job 7021611
+Submitted batch job 7021612
+Submitted batch job 7021613
+Submitted batch job 7021614
+Submitted batch job 7021615
+Submitted batch job 7021616
+Submitted batch job 7021617
+Submitted batch job 7021618
+Submitted batch job 7021619
+Submitted batch job 7021620
+Submitted batch job 7021621
+Submitted batch job 7021622
+Submitted batch job 7021623
+Submitted batch job 7021624
+Submitted batch job 7021625
+Submitted batch job 7021626
+Submitted batch job 7021627
+Submitted batch job 7021628
+Submitted batch job 7021629
+slurm_load_jobs error: Transport endpoint is not connected
+gaussian.py:457 verify_output_file INFO Not a valid path, cannot be verified...
+job.py:261 calculate_conformer INFO It seems that the file never completed for CCCCCCC_1000 completed, running it again
+job.py:207 submit_conformer INFO Restarting calculations for <Conformer "CCCCCCC">.
+Submitted batch job 7022397
+slurm_load_jobs error: Transport endpoint is not connected
+slurm_load_jobs error: Transport endpoint is not connected
+slurm_load_jobs error: Transport endpoint is not connected
+slurm_load_jobs error: Transport endpoint is not connected
+slurm_load_jobs error: Transport endpoint is not connected
+slurm_load_jobs error: Transport endpoint is not connected
+slurm_load_jobs error: Transport endpoint is not connected
+slurm_load_jobs error: Transport endpoint is not connected
+slurm_load_jobs error: Transport endpoint is not connected
+slurm_load_jobs error: Transport endpoint is not connected
+slurm_load_jobs error: Transport endpoint is not connected
+slurm_load_jobs error: Transport endpoint is not connected
+slurm_load_jobs error: Transport endpoint is not connected
+gaussian.py:457 verify_output_file INFO Not a valid path, cannot be verified...
+job.py:261 calculate_conformer INFO It seems that the file never completed for CCCCCCC_624 completed, running it again
+gaussian.py:457 verify_output_file INFO Not a valid path, cannot be verified...
+job.py:261 calculate_conformer INFO It seems that the file never completed for CCCCCCC_993 completed, running it again
+gaussian.py:457 verify_output_file INFO Not a valid path, cannot be verified...
+job.py:261 calculate_conformer INFO It seems that the file never completed for CCCCCCC_424 completed, running it again
+gaussian.py:457 verify_output_file INFO Not a valid path, cannot be verified...
+job.py:261 calculate_conformer INFO It seems that the file never completed for CCCCCCC_776 completed, running it again
+gaussian.py:457 verify_output_file INFO Not a valid path, cannot be verified...
+job.py:261 calculate_conformer INFO It seems that the file never completed for CCCCCCC_995 completed, running it again
+gaussian.py:457 verify_output_file INFO Not a valid path, cannot be verified...
+job.py:261 calculate_conformer INFO It seems that the file never completed for CCCCCCC_422 completed, running it again
+gaussian.py:457 verify_output_file INFO Not a valid path, cannot be verified...
+job.py:261 calculate_conformer INFO It seems that the file never completed for CCCCCCC_342 completed, running it again
+gaussian.py:457 verify_output_file INFO Not a valid path, cannot be verified...
+job.py:261 calculate_conformer INFO It seems that the file never completed for CCCCCCC_779 completed, running it again
+gaussian.py:457 verify_output_file INFO Not a valid path, cannot be verified...
+job.py:261 calculate_conformer INFO It seems that the file never completed for CCCCCCC_344 completed, running it again
+gaussian.py:457 verify_output_file INFO Not a valid path, cannot be verified...
+job.py:261 calculate_conformer INFO It seems that the file never completed for CCCCCCC_421 completed, running it again
+gaussian.py:457 verify_output_file INFO Not a valid path, cannot be verified...
+job.py:261 calculate_conformer INFO It seems that the file never completed for CCCCCCC_428 completed, running it again
+gaussian.py:457 verify_output_file INFO Not a valid path, cannot be verified...
+job.py:261 calculate_conformer INFO It seems that the file never completed for CCCCCCC_810 completed, running it again
+gaussian.py:457 verify_output_file INFO Not a valid path, cannot be verified...
+job.py:261 calculate_conformer INFO It seems that the file never completed for CCCCCCC_805 completed, running it again
+Process Process-2292:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 262, in calculate_conformer
+    label = self.submit_conformer(conformer, restart=True)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 177, in submit_conformer
+    self.write_input(conformer, ase_calculator)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 143, in write_input
+    ase_calculator.label + ".com"
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/shutil.py", line 325, in move
+    copy2(src, real_dst)
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/shutil.py", line 153, in copy2
+    copyfile(src, dst)
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/shutil.py", line 96, in copyfile
+    with open(src, 'rb') as fsrc:
+IOError: [Errno 2] No such file or directory: 'CCCCCCC_993.com'
+Process Process-1721:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 262, in calculate_conformer
+    label = self.submit_conformer(conformer, restart=True)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 177, in submit_conformer
+    self.write_input(conformer, ase_calculator)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 143, in write_input
+    ase_calculator.label + ".com"
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/shutil.py", line 325, in move
+    copy2(src, real_dst)
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/shutil.py", line 153, in copy2
+    copyfile(src, dst)
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/shutil.py", line 96, in copyfile
+    with open(src, 'rb') as fsrc:
+IOError: [Errno 2] No such file or directory: 'CCCCCCC_422.com'
+Process Process-2104:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 262, in calculate_conformer
+    label = self.submit_conformer(conformer, restart=True)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 177, in submit_conformer
+    self.write_input(conformer, ase_calculator)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 143, in write_input
+    ase_calculator.label + ".com"
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/shutil.py", line 325, in move
+Process Process-2109:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    copy2(src, real_dst)
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/shutil.py", line 153, in copy2
+    copyfile(src, dst)
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/shutil.py", line 96, in copyfile
+    with open(src, 'rb') as fsrc:
+IOError: [Errno 2] No such file or directory: 'CCCCCCC_805.com'
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 262, in calculate_conformer
+    label = self.submit_conformer(conformer, restart=True)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 177, in submit_conformer
+    self.write_input(conformer, ase_calculator)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 143, in write_input
+    ase_calculator.label + ".com"
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/shutil.py", line 325, in move
+    copy2(src, real_dst)
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/shutil.py", line 153, in copy2
+    copyfile(src, dst)
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/shutil.py", line 96, in copyfile
+    with open(src, 'rb') as fsrc:
+IOError: [Errno 2] No such file or directory: 'CCCCCCC_810.com'
+job.py:207 submit_conformer INFO Restarting calculations for <Conformer "CCCCCCC">.
+job.py:207 submit_conformer INFO Restarting calculations for <Conformer "CCCCCCC">.
+job.py:207 submit_conformer INFO Restarting calculations for <Conformer "CCCCCCC">.
+job.py:207 submit_conformer INFO Restarting calculations for <Conformer "CCCCCCC">.
+job.py:207 submit_conformer INFO Restarting calculations for <Conformer "CCCCCCC">.
+job.py:207 submit_conformer INFO Restarting calculations for <Conformer "CCCCCCC">.
+job.py:207 submit_conformer INFO Restarting calculations for <Conformer "CCCCCCC">.
+job.py:207 submit_conformer INFO Restarting calculations for <Conformer "CCCCCCC">.
+job.py:207 submit_conformer INFO Restarting calculations for <Conformer "CCCCCCC">.
+Submitted batch job 7022454
+Submitted batch job 7022463
+Submitted batch job 7022467
+Submitted batch job 7022468
+Submitted batch job 7022474
+Submitted batch job 7022477
+Submitted batch job 7022500
+Submitted batch job 7022502
+Submitted batch job 7022505
+job.py:293 check_isomorphic INFO CCCCCCC_621 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_622 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_625 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_871 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_996 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_801 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_804 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_1219 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_878 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_877 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_994 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_1000 was successful and was validated!

@@ -1,0 +1,1683 @@
+Using Theano backend.
+/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+reaction.py:169 load_databases INFO Loading RMG database from '/home/harms.n/Code/RMG-database/input'
+thermo.py:844 loadLibraries INFO Loading thermodynamics library from primaryThermoLibrary.py in /home/harms.n/Code/RMG-database/input/thermo/libraries...
+thermo.py:844 loadLibraries INFO Loading thermodynamics library from thermo_DFT_CCSDTF12_BAC.py in /home/harms.n/Code/RMG-database/input/thermo/libraries...
+thermo.py:844 loadLibraries INFO Loading thermodynamics library from CBS_QB3_1dHR.py in /home/harms.n/Code/RMG-database/input/thermo/libraries...
+thermo.py:861 loadGroups INFO Loading thermodynamics group database from /home/harms.n/Code/RMG-database/input/thermo/groups...
+transport.py:294 loadGroups INFO Loading transport group database from /home/harms.n/Code/RMG-database/input/transport/groups...
+statmech.py:529 loadGroups INFO Loading frequencies group database from /home/harms.n/Code/RMG-database/input/statmech/groups...
+base.py:220 load INFO Loading transitions state family groups from /home/harms.n/Code/AutoTST/database/R_Addition_MultipleBond/TS_groups.py
+base.py:220 load INFO Loading transitions state family groups from /home/harms.n/Code/AutoTST/database/H_Abstraction/TS_groups.py
+base.py:220 load INFO Loading transitions state family groups from /home/harms.n/Code/AutoTST/database/intra_H_migration/TS_groups.py
+reaction.py:341 get_labeled_reaction INFO Matched reaction to H_Abstraction family
+reaction.py:341 get_labeled_reaction INFO Matched reaction to H_Abstraction family
+reaction.py:250 generate_distance_data INFO Distance between *1 and *3 is too small, setting it to lower bound of uncertainty
+reaction.py:255 generate_distance_data INFO The distance data is as follows: DistanceData(distances={'d12': 1.278734,'d13': 2.573306,'d23': 1.427297,}, uncertainties={'d12': 0.252550,'d13': 0.239305,'d23': 0.336802,}, comment='Matched node CsOHHH ([<Entry index=78 label="CsOHHH">, <Entry index=216 label="Csj/Cd/Cd/H">])\nMatched node Cs_methyl ([<Entry index=119 label="C/H3/Cd">, <Entry index=66 label="Cs_methyl">])\n')
+reaction.py:701 get_rdkit_mol INFO Initially embedded molecule
+reaction.py:706 get_rdkit_mol INFO Getting bounds matrix
+reaction.py:710 get_rdkit_mol INFO Editing bounds matrix
+reaction.py:741 set_limits INFO For atoms 2 and 6 we have a distance of: 	 1.278734
+reaction.py:741 set_limits INFO For atoms 6 and 5 we have a distance of: 	 1.427297
+reaction.py:741 set_limits INFO For atoms 2 and 5 we have a distance of: 	 2.5733065
+reaction.py:776 bm_pre_edit INFO Changing lower limit 3.65 to 3.44684063007
+reaction.py:713 get_rdkit_mol INFO Performing triangle smoothing on bounds matrix.
+reaction.py:716 get_rdkit_mol INFO Now attempting to embed using edited bounds matrix.
+reaction.py:905 rd_embed INFO RDKit failed to embed on attempt 1 of 10000
+systematic0.py:179 systematic_search INFO There are 432 unique conformers generated
+
+
+
+
+
+
+ _           _    _     _ _
+| |__   ___ | |_ | |__ |_| |_
+|  _ \ / _ \|  _||  _ \| |  _|
+| | | | ( ) | |_ | ( ) | | |_
+|_| |_|\___/ \__|\____/|_|\__|  ver. 0.1 (svn=exported)
+Distributed under GNU GPL; see /home/harms.n/Code/hotbit/lib/python/LICENSE
+Date: Mon Sep 23 09:55:20 2019
+Nodename: c3042
+Arch: x86_64
+Dir: /home/harms.n/Code/profiling-conformers
+System: H9C4O2
+       Charge= 0.0
+       Container Bravais: pbc:[0,0,0], cell:[0.00,0.00,0.00] Ang, 
+   cosines(12,13,23):[nan,nan,nan]
+Symmetry operations (if any):
+       0: pbc= False , kappa-points=1, M=1
+       1: pbc= False , kappa-points=1, M=1
+       2: pbc= False , kappa-points=1, M=1
+Electronic temperature: 0.02 eV
+Mixer: Anderson with memory = 3 , mixing parameter = 0.2
+15 atoms, 33 states, 37.0 electrons (18.5 filled states)
+Initial n ranges:[0,0] [0,0] [0,0] 
+Element O in /home/harms.n/Code/hotbit/param/O.elm
+    *no comment
+Element C in /home/harms.n/Code/hotbit/param/C.elm
+    *fixed set C
+Element H in /home/harms.n/Code/hotbit/param/H.elm
+    *no comment
+
+Interactions:
+  OO in /home/harms.n/Code/hotbit/param/O_O.par
+    *no slako doc
+  OC in /home/harms.n/Code/hotbit/param/C_O.par
+    *no slako doc
+  OH in /home/harms.n/Code/hotbit/param/O_H.par
+    *no slako doc
+  CO in /home/harms.n/Code/hotbit/param/C_O.par
+    *no slako doc
+  CC in /home/harms.n/Code/hotbit/param/C_C.par
+    *test parameters 23.6 2008
+    *Quadratic original (r/r0)**2, r0=1.85*r_cov,
+    *Original repulsion (probably)
+  CH in /home/harms.n/Code/hotbit/param/C_H.par
+    *test parameters 23.6 2008
+  HO in /home/harms.n/Code/hotbit/param/O_H.par
+    *no slako doc
+  HC in /home/harms.n/Code/hotbit/param/C_H.par
+    *test parameters 23.6 2008
+  HH in /home/harms.n/Code/hotbit/param/H_H.par
+    *test parameters 23.6 2008
+
+Repulsions:
+  OO in /home/harms.n/Code/hotbit/param/O_O.par
+    *no repulsion doc
+  OC in /home/harms.n/Code/hotbit/param/C_O.par
+    *no repulsion doc
+  OH in /home/harms.n/Code/hotbit/param/O_H.par
+    *no repulsion doc
+  CC in /home/harms.n/Code/hotbit/param/C_C.par
+    *test parameters 23.6 2008
+  CH in /home/harms.n/Code/hotbit/param/C_H.par
+    *test parameters 23.6 2008
+  HH in /home/harms.n/Code/hotbit/param/H_H.par
+    *test parameters 23.6 2008
+
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.675 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.593 % filled.
+Hamiltonian ~86.410 % filled.
+Hamiltonian ~86.593 % filled.
+Hamiltonian ~87.144 % filled.
+Hamiltonian ~87.511 % filled.
+Hamiltonian ~86.777 % filled.
+Hamiltonian ~87.511 % filled.
+Hamiltonian ~87.511 % filled.
+Hamiltonian ~86.961 % filled.
+Hamiltonian ~86.593 % filled.
+Hamiltonian ~88.981 % filled.
+Hamiltonian ~89.715 % filled.
+Hamiltonian ~89.532 % filled.
+Hamiltonian ~86.593 % filled.
+Hamiltonian ~88.981 % filled.
+Hamiltonian ~89.899 % filled.
+Hamiltonian ~89.899 % filled.
+Hamiltonian ~89.899 % filled.
+Hamiltonian ~90.083 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.817 % filled.
+Hamiltonian ~88.981 % filled.
+Hamiltonian ~89.715 % filled.
+Hamiltonian ~88.981 % filled.
+Hamiltonian ~93.021 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.919 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.837 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.654 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.021 % filled.
+Hamiltonian ~92.654 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.021 % filled.
+Hamiltonian ~91.552 % filled.
+Hamiltonian ~93.021 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.552 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.021 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.817 % filled.
+Hamiltonian ~92.654 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.287 % filled.
+Hamiltonian ~92.654 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.103 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.654 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.103 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.654 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.185 % filled.
+Hamiltonian ~92.654 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.103 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.654 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.287 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.021 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.736 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.021 % filled.
+Hamiltonian ~90.817 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.021 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.552 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.021 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.552 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.021 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.470 % filled.
+Hamiltonian ~92.837 % filled.
+Hamiltonian ~92.470 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.981 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.062 % filled.
+Hamiltonian ~88.981 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.062 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.899 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.246 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.164 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.981 % filled.
+Hamiltonian ~89.164 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.164 % filled.
+Hamiltonian ~88.797 % filled.
+Hamiltonian ~88.246 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.675 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.675 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.593 % filled.
+Hamiltonian ~85.859 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.961 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.777 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.144 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.961 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.961 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.777 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.593 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.859 % filled.
+Hamiltonian ~88.613 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.981 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.613 % filled.
+Hamiltonian ~89.164 % filled.
+Hamiltonian ~88.981 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.083 % filled.
+Hamiltonian ~90.083 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.899 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.083 % filled.
+Hamiltonian ~88.981 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.899 % filled.
+Hamiltonian ~88.981 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.470 % filled.
+Hamiltonian ~91.368 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.470 % filled.
+Hamiltonian ~91.552 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.470 % filled.
+Hamiltonian ~91.368 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.470 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.368 % filled.
+Hamiltonian ~92.470 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.185 % filled.
+Hamiltonian ~92.470 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.450 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.470 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.368 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.470 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.368 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.470 % filled.
+Hamiltonian ~91.368 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.470 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.368 % filled.
+Hamiltonian ~92.470 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.368 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.470 % filled.
+Hamiltonian ~91.552 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.899 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.083 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.817 % filled.
+Hamiltonian ~89.532 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.185 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.083 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.817 % filled.
+Hamiltonian ~90.450 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.899 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.450 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.899 % filled.
+Hamiltonian ~90.266 % filled.
+Hamiltonian ~86.777 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.859 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.777 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.859 % filled.
+Hamiltonian ~86.961 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.675 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.961 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.961 % filled.
+Hamiltonian ~86.961 % filled.
+Hamiltonian ~86.961 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.593 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.042 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.757 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.022 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.491 % filled.
+Hamiltonian ~84.022 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.042 % filled.
+Hamiltonian ~84.940 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.042 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.940 % filled.
+Hamiltonian ~86.042 % filled.
+Hamiltonian ~84.940 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.675 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.022 % filled.
+Hamiltonian ~86.226 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.838 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.226 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.022 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.410 % filled.
+Hamiltonian ~84.757 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.511 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.757 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.022 % filled.
+Hamiltonian ~87.695 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.226 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.838 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.430 % filled.
+Hamiltonian ~86.777 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.430 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.593 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.613 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.593 % filled.
+Hamiltonian ~88.613 % filled.
+Hamiltonian ~86.777 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.613 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.777 % filled.
+Hamiltonian ~88.430 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.042 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.511 % filled.
+Hamiltonian ~86.410 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.246 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.226 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.613 % filled.
+Hamiltonian ~86.410 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.613 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.410 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.430 % filled.
+Hamiltonian ~86.410 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.246 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.410 % filled.
+Hamiltonian ~86.961 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.757 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.022 % filled.
+Hamiltonian ~87.144 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.879 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.757 % filled.
+Hamiltonian ~87.879 % filled.
+Hamiltonian ~84.757 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.961 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.757 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.593 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.757 % filled.
+Hamiltonian ~85.491 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.022 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.675 % filled.
+Hamiltonian ~84.022 % filled.
+Hamiltonian ~85.675 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.206 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.675 % filled.
+Hamiltonian ~84.940 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.859 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.940 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.491 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.206 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~82.920 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~82.369 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.838 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~82.185 % filled.
+Hamiltonian ~84.573 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.287 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.389 % filled.
+Hamiltonian ~83.471 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.573 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.287 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.022 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~82.369 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.124 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~82.369 % filled.
+Hamiltonian ~85.124 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~82.553 % filled.
+Hamiltonian ~85.675 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.471 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.675 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.471 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.491 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.675 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~82.369 % filled.
+Hamiltonian ~85.675 % filled.
+Hamiltonian ~82.369 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.287 % filled.
+Hamiltonian ~85.675 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.471 % filled.
+Hamiltonian ~85.859 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.593 % filled.
+Hamiltonian ~83.471 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.471 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.593 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.287 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.675 % filled.
+Hamiltonian ~82.553 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.675 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.389 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.675 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.389 % filled.
+Hamiltonian ~86.777 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.389 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.777 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.389 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.777 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.389 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.675 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.389 % filled.
+Hamiltonian ~85.675 % filled.
+Hamiltonian ~83.471 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.675 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~82.736 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.777 % filled.
+Hamiltonian ~83.471 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.777 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.655 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.593 % filled.
+Hamiltonian ~83.655 % filled.
+Hamiltonian ~85.675 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.655 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.389 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~82.369 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.124 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~82.369 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.308 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~82.369 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.471 % filled.
+Hamiltonian ~86.042 % filled.
+Hamiltonian ~85.491 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~83.471 % filled.
+Hamiltonian ~84.757 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~82.553 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.940 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.022 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.491 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.022 % filled.
+Hamiltonian ~86.042 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.940 % filled.
+Hamiltonian ~86.042 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.940 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.042 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.940 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.491 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.022 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.940 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.022 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.124 % filled.
+Hamiltonian ~84.206 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.124 % filled.
+Hamiltonian ~84.940 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.124 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.940 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.491 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.206 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.940 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.022 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.777 % filled.
+Hamiltonian ~86.961 % filled.
+Hamiltonian ~85.308 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.308 % filled.
+Hamiltonian ~86.961 % filled.
+Hamiltonian ~85.124 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.879 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.491 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.062 % filled.
+Hamiltonian ~85.308 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.961 % filled.
+Hamiltonian ~84.757 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.511 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.593 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.246 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.593 % filled.
+Hamiltonian ~88.430 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.593 % filled.
+Hamiltonian ~88.613 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.593 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.613 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.593 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.430 % filled.
+Hamiltonian ~86.593 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.246 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.777 % filled.
+Hamiltonian ~88.613 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.042 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.613 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.777 % filled.
+Hamiltonian ~88.613 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.777 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.613 % filled.
+Hamiltonian ~86.777 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.430 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.777 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.226 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.757 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.410 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.573 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.511 % filled.
+Hamiltonian ~84.940 % filled.
+Hamiltonian ~87.511 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.675 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.410 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.675 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.226 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~84.940 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.675 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.226 % filled.
+Hamiltonian ~86.593 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.042 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.144 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.144 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.144 % filled.
+Hamiltonian ~87.144 % filled.
+Hamiltonian ~87.144 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.961 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.410 % filled.
+Hamiltonian ~86.042 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.593 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.859 % filled.
+Hamiltonian ~86.593 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.042 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.961 % filled.
+Hamiltonian ~86.961 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~86.961 % filled.
+Hamiltonian ~86.961 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~87.144 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.859 % filled.
+Hamiltonian ~86.777 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.859 % filled.
+Hamiltonian ~89.532 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.348 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.348 % filled.
+Hamiltonian ~89.348 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.532 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.532 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.450 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.532 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.634 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.532 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.266 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.797 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.470 % filled.
+Hamiltonian ~91.552 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.470 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.552 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.470 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.368 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.368 % filled.
+Hamiltonian ~92.470 % filled.
+Hamiltonian ~92.470 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.368 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.470 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.368 % filled.
+Hamiltonian ~92.837 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.552 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.837 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.634 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.837 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.368 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.837 % filled.
+Hamiltonian ~91.552 % filled.
+Hamiltonian ~92.837 % filled.
+Hamiltonian ~91.736 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.837 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.736 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.164 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.981 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.266 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.981 % filled.
+Hamiltonian ~90.817 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.797 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.634 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.083 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.532 % filled.
+Hamiltonian ~89.899 % filled.
+Hamiltonian ~89.164 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.981 % filled.
+systematic0.py:291 systematic_search INFO We have identified 140 unique conformers for <TS "COC=CO.[CH3]">
+job.py:67 __init__ INFO Job directory not specified...setting Job directory to calculator directory
+job.py:74 __init__ INFO Job scratch directory not specified...setting Job scratch to calculator scratch
+job.py:605 calculate_reaction INFO Calculating geometries for <Reaction "COC=CO+[CH3]_[CH2]OC=CO+C">
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_44
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_43
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_37
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_38
+Process Process-479:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+Process Process-478:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_35
+Process Process-472:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+Process Process-473:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_36
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_41
+Process Process-470:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_42
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_39
+Process Process-471:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+Process Process-476:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_40
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_138
+Process Process-477:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_137
+Process Process-474:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+Process Process-475:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_136
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_135
+Process Process-573:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+Process Process-572:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_139
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_125
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_127
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_126
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_128
+Process Process-571:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+Process Process-570:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+Process Process-574:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_129
+Process Process-560:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+Process Process-562:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+Process Process-561:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+Process Process-563:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_130
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_132
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_131
+Process Process-564:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_133
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_134
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_52
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_51
+Process Process-565:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+Process Process-567:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+Process Process-566:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_50
+Process Process-568:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+Process Process-569:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+Process Process-487:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+Process Process-486:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_49
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_48
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_47
+Process Process-485:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_46
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_45
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_54
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_53
+Process Process-484:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+Process Process-483:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+Process Process-482:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+Process Process-481:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+Process Process-480:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+Process Process-489:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+Process Process-488:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_120
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_119
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_122
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_121
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_116
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_115
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_118
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_117
+Process Process-555:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+Process Process-554:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+Process Process-557:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+Process Process-556:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+Process Process-551:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+Process Process-550:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+Traceback (most recent call last):
+  File "profile-ts.py", line 75, in <module>
+    job.calculate_reaction()
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 631, in calculate_reaction
+    if not running.is_alive():
+AttributeError: 'str' object has no attribute 'is_alive'
+Process Process-553:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+Process Process-552:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_124
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_123
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_59
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_60
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_61
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_55
+Process Process-559:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+job.py:556 calculate_transitionstate INFO Submitting SHELL calculations for COC=CO+[CH3]_[CH2]OC=CO+C_forward_62
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+Process Process-558:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+Process Process-494:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+Process Process-495:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+Process Process-497:
+Process Process-496:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+Process Process-490:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+    self.run()
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    transitionstate, opt_type=opt_type.lower())
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 558, in calculate_transitionstate
+    transitionstate, opt_type=opt_type.lower())
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 467, in submit_transitionstate
+    ase_calculator = self.calculator.get_shell_calc()
+  File "/home/harms.n/Code/AutoTST/autotst/calculator/gaussian.py", line 273, in get_shell_calc
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+    ind1 = self.conformer.rmg_molecule.getLabeledAtom("*1")[0].sortingLabel
+TypeError: 'rmgpy.molecule.molecule.Atom' object has no attribute '__getitem__'
+Solved zero times.
+
+Timing:
+            label                    time     calls    %sub  %covered   %tot
+-------------------------------------------------------------------------------
+Hotbit                            1574.568         1 (100.0 %,  0.0 %) 100.0 % |000000000000000000000000000000|
+../initialization                    0.228         1 (  0.0 %        )   0.0 % ||
+ -------------------------------------------------------------------------------
+total time     1574.568 seconds      0 h  26 min  15 sec
+Mon Sep 23 10:21:35 2019

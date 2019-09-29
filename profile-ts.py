@@ -16,21 +16,21 @@ if os.getenv('SLURM_ARRAY_TASK_ID'):
 else:
     i = 1
 
-if i % 1:
+if i % 4 == 1:
     # fmax of 0.25
-    from systematic0 import *
+    from systematic.systematic0 import *
     directory = "loose"
-elif i % 2:
+elif i % 4 == 2:
     # fmax of 0.1
-    from systematic1 import *
+    from systematic.systematic1 import *
     directory = "med"
-elif i % 3:
+elif i % 4 == 3:
     # fmax of 0.5
-    from systematic2 import *
+    from systematic.systematic2 import *
     directory = "tight"
-elif i % 3:
+elif i % 4 == 0:
     # fmax of 0.01
-    from systematic3 import *
+    from systematic.systematic3 import *
     directory = "verytight"
 
 #%%
@@ -42,7 +42,7 @@ smiles = [
     "CCCCCCC+[CH3]_[CH2]CCCCCC+C"
 ]
 
-reaction = Reaction(smiles[i/4])
+reaction = Reaction(smiles[(i-1)/4])
 conf = reaction.ts["forward"][0]
 conf.ase_molecule.set_calculator(Hotbit())
 reaction.ts["forward"] = systematic_search(conf)
@@ -54,7 +54,9 @@ for conformer in reaction.ts["forward"]:
     hotbit_results.append([conformer.index, conformer.energy])
 
 df = pd.DataFrame(hotbit_results, columns=["index", "hotbit"])
-df.to_csv("./{}/hotbit-ts.csv".format(directory))
+if not os.path.exists(os.path.join(".", directory, "ts", conf.reaction_label)):
+    os.makedirs(os.path.join(".", directory, "ts", conf.reaction_label))
+df.to_csv("./{0}/ts/{1}/hotbit.csv".format(directory, conf.reaction_label))
 
 #%%
 job = Job(    

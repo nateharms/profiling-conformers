@@ -269,7 +269,7 @@ def systematic_search(conformer,
     #df = df[df.energy < df.energy.min() + units.kcal / units.mol /
     #        units.eV].sort_values("energy")
 
-    tolerance = 1 ###
+    tolerance = 0.1 ###
     scratch_index = []
     unique_index = []
     for index in df.index:

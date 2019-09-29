@@ -1,0 +1,135 @@
+Using Theano backend.
+/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+systematic3.py:179 systematic_search INFO There are 6 unique conformers generated
+
+
+
+
+
+
+ _           _    _     _ _
+| |__   ___ | |_ | |__ |_| |_
+|  _ \ / _ \|  _||  _ \| |  _|
+| | | | ( ) | |_ | ( ) | | |_
+|_| |_|\___/ \__|\____/|_|\__|  ver. 0.1 (svn=exported)
+Distributed under GNU GPL; see /home/harms.n/Code/hotbit/lib/python/LICENSE
+Date: Mon Sep 23 09:55:10 2019
+Nodename: c3041
+Arch: x86_64
+Dir: /home/harms.n/Code/profiling-conformers
+System: H4CO2
+       Charge= 0.0
+       Container Bravais: pbc:[0,0,0], cell:[0.00,0.00,0.00] Ang, 
+   cosines(12,13,23):[nan,nan,nan]
+Symmetry operations (if any):
+       0: pbc= False , kappa-points=1, M=1
+       1: pbc= False , kappa-points=1, M=1
+       2: pbc= False , kappa-points=1, M=1
+Electronic temperature: 0.02 eV
+Mixer: Anderson with memory = 3 , mixing parameter = 0.2
+7 atoms, 16 states, 20.0 electrons (10.0 filled states)
+Initial n ranges:[0,0] [0,0] [0,0] 
+Element O in /home/harms.n/Code/hotbit/param/O.elm
+    *no comment
+Element C in /home/harms.n/Code/hotbit/param/C.elm
+    *fixed set C
+Element H in /home/harms.n/Code/hotbit/param/H.elm
+    *no comment
+
+Interactions:
+  OO in /home/harms.n/Code/hotbit/param/O_O.par
+    *no slako doc
+  OC in /home/harms.n/Code/hotbit/param/C_O.par
+    *no slako doc
+  OH in /home/harms.n/Code/hotbit/param/O_H.par
+    *no slako doc
+  CO in /home/harms.n/Code/hotbit/param/C_O.par
+    *no slako doc
+  CC in /home/harms.n/Code/hotbit/param/C_C.par
+    *test parameters 23.6 2008
+    *Quadratic original (r/r0)**2, r0=1.85*r_cov,
+    *Original repulsion (probably)
+  CH in /home/harms.n/Code/hotbit/param/C_H.par
+    *test parameters 23.6 2008
+  HO in /home/harms.n/Code/hotbit/param/O_H.par
+    *no slako doc
+  HC in /home/harms.n/Code/hotbit/param/C_H.par
+    *test parameters 23.6 2008
+  HH in /home/harms.n/Code/hotbit/param/H_H.par
+    *test parameters 23.6 2008
+
+Repulsions:
+  OO in /home/harms.n/Code/hotbit/param/O_O.par
+    *no repulsion doc
+  OC in /home/harms.n/Code/hotbit/param/C_O.par
+    *no repulsion doc
+  OH in /home/harms.n/Code/hotbit/param/O_H.par
+    *no repulsion doc
+  CC in /home/harms.n/Code/hotbit/param/C_C.par
+    *test parameters 23.6 2008
+  CH in /home/harms.n/Code/hotbit/param/C_H.par
+    *test parameters 23.6 2008
+  HH in /home/harms.n/Code/hotbit/param/H_H.par
+    *test parameters 23.6 2008
+
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~85.938 % filled.
+Hamiltonian ~85.938 % filled.
+Hamiltonian ~85.938 % filled.
+Hamiltonian ~85.938 % filled.
+Hamiltonian ~85.938 % filled.
+Hamiltonian ~85.938 % filled.
+systematic3.py:291 systematic_search INFO We have identified 1 unique conformers for <Conformer "COO">
+job.py:67 __init__ INFO Job directory not specified...setting Job directory to calculator directory
+job.py:74 __init__ INFO Job scratch directory not specified...setting Job scratch to calculator scratch
+job.py:364 calculate_species INFO Calculating geometries for <Species "COO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for COO_0
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "COO">
+Submitted batch job 7017030
+job.py:293 check_isomorphic INFO COO_0 was successful and was validated!
+[Gaussian verytight/species/COO/conformers/COO_0.log WARNING] Number of basis functions (nbasis) has changed from 146 to 165
+gaussianparser.py:1337 extract WARNING Number of basis functions (nbasis) has changed from 146 to 165
+[Gaussian verytight/species/COO/conformers/COO_0.log WARNING] Number of basis functions (nbasis) has changed from 165 to 146
+gaussianparser.py:1337 extract WARNING Number of basis functions (nbasis) has changed from 165 to 146
+[Gaussian verytight/species/COO/conformers/COO_0.log WARNING] Number of basis functions (nbasis) has changed from 146 to 165
+gaussianparser.py:1337 extract WARNING Number of basis functions (nbasis) has changed from 146 to 165
+[Gaussian verytight/species/COO/conformers/COO_0.log WARNING] Number of basis functions (nbasis) has changed from 165 to 146
+gaussianparser.py:1337 extract WARNING Number of basis functions (nbasis) has changed from 165 to 146
+[Gaussian verytight/species/COO/conformers/COO_0.log WARNING] Number of basis functions (nbasis) has changed from 146 to 165
+gaussianparser.py:1337 extract WARNING Number of basis functions (nbasis) has changed from 146 to 165
+[Gaussian verytight/species/COO/conformers/COO_0.log WARNING] Number of basis functions (nbasis) has changed from 165 to 146
+gaussianparser.py:1337 extract WARNING Number of basis functions (nbasis) has changed from 165 to 146
+[Gaussian verytight/species/COO/conformers/COO_0.log WARNING] Number of basis functions (nbasis) has changed from 146 to 165
+gaussianparser.py:1337 extract WARNING Number of basis functions (nbasis) has changed from 146 to 165
+[Gaussian verytight/species/COO/conformers/COO_0.log WARNING] Number of basis functions (nbasis) has changed from 165 to 146
+gaussianparser.py:1337 extract WARNING Number of basis functions (nbasis) has changed from 165 to 146
+[Gaussian verytight/species/COO/conformers/COO_0.log WARNING] Number of basis functions (nbasis) has changed from 146 to 165
+gaussianparser.py:1337 extract WARNING Number of basis functions (nbasis) has changed from 146 to 165
+[Gaussian verytight/species/COO/conformers/COO_0.log WARNING] Number of basis functions (nbasis) has changed from 165 to 146
+gaussianparser.py:1337 extract WARNING Number of basis functions (nbasis) has changed from 165 to 146
+[Gaussian verytight/species/COO/conformers/COO_0.log WARNING] Number of basis functions (nbasis) has changed from 146 to 165
+gaussianparser.py:1337 extract WARNING Number of basis functions (nbasis) has changed from 146 to 165
+[Gaussian verytight/species/COO/conformers/COO_0.log WARNING] Number of basis functions (nbasis) has changed from 165 to 146
+gaussianparser.py:1337 extract WARNING Number of basis functions (nbasis) has changed from 165 to 146
+[Gaussian verytight/species/COO/conformers/COO_0.log WARNING] Number of basis functions (nbasis) has changed from 146 to 165
+gaussianparser.py:1337 extract WARNING Number of basis functions (nbasis) has changed from 146 to 165
+[Gaussian verytight/species/COO/conformers/COO_0.log WARNING] Number of basis functions (nbasis) has changed from 165 to 146
+gaussianparser.py:1337 extract WARNING Number of basis functions (nbasis) has changed from 165 to 146
+job.py:443 calculate_species INFO The lowest energy conformer is COO_0.log
+job.py:455 calculate_species INFO The lowest energy file is COO_0.log! :)
+Solved zero times.
+
+Timing:
+            label                    time     calls    %sub  %covered   %tot
+-------------------------------------------------------------------------------
+Hotbit                            1056.612         1 (100.0 %,  0.0 %) 100.0 % |000000000000000000000000000000|
+../initialization                    0.237         1 (  0.0 %        )   0.0 % ||
+ -------------------------------------------------------------------------------
+total time     1056.612 seconds      0 h  17 min  37 sec
+Mon Sep 23 10:12:46 2019

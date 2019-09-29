@@ -1,0 +1,1271 @@
+Using Theano backend.
+/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+systematic2.py:179 systematic_search INFO There are 432 unique conformers generated
+
+
+
+
+
+
+ _           _    _     _ _
+| |__   ___ | |_ | |__ |_| |_
+|  _ \ / _ \|  _||  _ \| |  _|
+| | | | ( ) | |_ | ( ) | | |_
+|_| |_|\___/ \__|\____/|_|\__|  ver. 0.1 (svn=exported)
+Distributed under GNU GPL; see /home/harms.n/Code/hotbit/lib/python/LICENSE
+Date: Mon Sep 23 09:55:10 2019
+Nodename: c3041
+Arch: x86_64
+Dir: /home/harms.n/Code/profiling-conformers
+System: H10C5O2
+       Charge= 0.0
+       Container Bravais: pbc:[0,0,0], cell:[0.00,0.00,0.00] Ang, 
+   cosines(12,13,23):[nan,nan,nan]
+Symmetry operations (if any):
+       0: pbc= False , kappa-points=1, M=1
+       1: pbc= False , kappa-points=1, M=1
+       2: pbc= False , kappa-points=1, M=1
+Electronic temperature: 0.02 eV
+Mixer: Anderson with memory = 3 , mixing parameter = 0.2
+17 atoms, 38 states, 42.0 electrons (21.0 filled states)
+Initial n ranges:[0,0] [0,0] [0,0] 
+Element O in /home/harms.n/Code/hotbit/param/O.elm
+    *no comment
+Element C in /home/harms.n/Code/hotbit/param/C.elm
+    *fixed set C
+Element H in /home/harms.n/Code/hotbit/param/H.elm
+    *no comment
+
+Interactions:
+  OO in /home/harms.n/Code/hotbit/param/O_O.par
+    *no slako doc
+  OC in /home/harms.n/Code/hotbit/param/C_O.par
+    *no slako doc
+  OH in /home/harms.n/Code/hotbit/param/O_H.par
+    *no slako doc
+  CO in /home/harms.n/Code/hotbit/param/C_O.par
+    *no slako doc
+  CC in /home/harms.n/Code/hotbit/param/C_C.par
+    *test parameters 23.6 2008
+    *Quadratic original (r/r0)**2, r0=1.85*r_cov,
+    *Original repulsion (probably)
+  CH in /home/harms.n/Code/hotbit/param/C_H.par
+    *test parameters 23.6 2008
+  HO in /home/harms.n/Code/hotbit/param/O_H.par
+    *no slako doc
+  HC in /home/harms.n/Code/hotbit/param/C_H.par
+    *test parameters 23.6 2008
+  HH in /home/harms.n/Code/hotbit/param/H_H.par
+    *test parameters 23.6 2008
+
+Repulsions:
+  OO in /home/harms.n/Code/hotbit/param/O_O.par
+    *no repulsion doc
+  OC in /home/harms.n/Code/hotbit/param/C_O.par
+    *no repulsion doc
+  OH in /home/harms.n/Code/hotbit/param/O_H.par
+    *no repulsion doc
+  CC in /home/harms.n/Code/hotbit/param/C_C.par
+    *test parameters 23.6 2008
+  CH in /home/harms.n/Code/hotbit/param/C_H.par
+    *test parameters 23.6 2008
+  HH in /home/harms.n/Code/hotbit/param/H_H.par
+    *test parameters 23.6 2008
+
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.044 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.044 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Hamiltonian ~94.044 % filled.
+Hamiltonian ~94.044 % filled.
+Hamiltonian ~93.075 % filled.
+Hamiltonian ~93.075 % filled.
+Hamiltonian ~94.044 % filled.
+Hamiltonian ~93.075 % filled.
+Hamiltonian ~92.936 % filled.
+Hamiltonian ~93.075 % filled.
+Hamiltonian ~92.798 % filled.
+Hamiltonian ~92.936 % filled.
+Hamiltonian ~93.075 % filled.
+Hamiltonian ~93.075 % filled.
+Hamiltonian ~92.936 % filled.
+Hamiltonian ~94.044 % filled.
+Hamiltonian ~93.075 % filled.
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.105 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.767 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.105 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.767 % filled.
+Hamiltonian ~92.105 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.767 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.105 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.767 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.105 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.767 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.105 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.767 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Hamiltonian ~93.906 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.906 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.906 % filled.
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.906 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Hamiltonian ~93.906 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.906 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.767 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.183 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.767 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.183 % filled.
+Hamiltonian ~93.767 % filled.
+Hamiltonian ~94.183 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.767 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.183 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.767 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.183 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.767 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.183 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.244 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.798 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.798 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.213 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Hamiltonian ~93.213 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.244 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.244 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.659 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.382 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.798 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.382 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.659 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.105 % filled.
+Hamiltonian ~91.967 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.967 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.659 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.105 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.105 % filled.
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.105 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.105 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.967 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.213 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.213 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.213 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.906 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.798 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.906 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.659 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.906 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Hamiltonian ~93.906 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.906 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.906 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.906 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.044 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.044 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.767 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.044 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.767 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.906 % filled.
+Hamiltonian ~93.767 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.906 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.166 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.859 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.166 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.997 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.690 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.997 % filled.
+Hamiltonian ~91.413 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.828 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.551 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.551 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.997 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.305 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.166 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.443 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.028 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.136 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.997 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.967 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.413 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.967 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.413 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.274 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.997 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.582 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.166 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.859 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.028 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.859 % filled.
+Hamiltonian ~90.305 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.551 % filled.
+Hamiltonian ~90.720 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.828 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.720 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.997 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.305 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.859 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.443 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.136 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.443 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.551 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.997 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.382 % filled.
+Hamiltonian ~91.828 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.382 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.828 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.382 % filled.
+Hamiltonian ~91.828 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.136 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.690 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.490 % filled.
+Hamiltonian ~91.690 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.629 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.659 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.906 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.906 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.629 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.798 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.551 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.521 % filled.
+Hamiltonian ~91.551 % filled.
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.244 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.629 % filled.
+Hamiltonian ~93.490 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.629 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.490 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Hamiltonian ~92.659 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.166 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.582 % filled.
+Hamiltonian ~90.305 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.859 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.413 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.105 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.413 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.244 % filled.
+Hamiltonian ~91.413 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.105 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.166 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.720 % filled.
+Hamiltonian ~89.058 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.751 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.335 % filled.
+Hamiltonian ~90.028 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.582 % filled.
+Hamiltonian ~90.720 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.443 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.413 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.028 % filled.
+Hamiltonian ~91.274 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.197 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.028 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.058 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.058 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.197 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.197 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.751 % filled.
+Hamiltonian ~90.582 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.751 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.720 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.889 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.582 % filled.
+Hamiltonian ~89.058 % filled.
+Hamiltonian ~89.197 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~88.920 % filled.
+Hamiltonian ~89.889 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.058 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.028 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.889 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.413 % filled.
+Hamiltonian ~90.443 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.551 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.443 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.859 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.197 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.166 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.166 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.582 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.028 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.859 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.274 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.105 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.551 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.105 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.105 % filled.
+Hamiltonian ~91.136 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.028 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.859 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.997 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.551 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.136 % filled.
+Hamiltonian ~91.690 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.382 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.521 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.521 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.521 % filled.
+Hamiltonian ~91.136 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.690 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.690 % filled.
+Hamiltonian ~93.352 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.659 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.767 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.767 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.798 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.767 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.690 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.490 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.166 % filled.
+Hamiltonian ~90.720 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.136 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.859 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.551 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.551 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.274 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.967 % filled.
+Hamiltonian ~90.859 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.828 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.028 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.136 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.443 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.136 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.997 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.136 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.997 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.551 % filled.
+Hamiltonian ~90.997 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.105 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.997 % filled.
+Hamiltonian ~91.967 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.443 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.274 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~89.889 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.028 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.443 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.166 % filled.
+Hamiltonian ~91.413 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.720 % filled.
+Hamiltonian ~91.413 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.828 % filled.
+Hamiltonian ~90.720 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.690 % filled.
+Hamiltonian ~89.751 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.166 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.305 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.551 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.551 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.413 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.828 % filled.
+Hamiltonian ~91.690 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.690 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.244 % filled.
+Hamiltonian ~91.413 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.105 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~90.443 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.551 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.551 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.521 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.659 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.659 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.629 % filled.
+Hamiltonian ~92.798 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.629 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.490 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.244 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.629 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~91.551 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.798 % filled.
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.044 % filled.
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.044 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.044 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Hamiltonian ~92.936 % filled.
+Hamiltonian ~94.044 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.044 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.044 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.798 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.798 % filled.
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.798 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.659 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.244 % filled.
+Hamiltonian ~92.659 % filled.
+Hamiltonian ~92.105 % filled.
+Hamiltonian ~92.659 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.244 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.629 % filled.
+Hamiltonian ~92.244 % filled.
+Hamiltonian ~93.629 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.244 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.629 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.244 % filled.
+Hamiltonian ~93.352 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.382 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.521 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.798 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.659 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.244 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.105 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.798 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.244 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.244 % filled.
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.213 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.213 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.075 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.906 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.767 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.906 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.767 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.044 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~93.767 % filled.
+Hamiltonian ~94.044 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.044 % filled.
+Hamiltonian ~92.936 % filled.
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~94.044 % filled.
+systematic2.py:291 systematic_search INFO We have identified 126 unique conformers for <Conformer "CC(C)OC=CO">
+job.py:67 __init__ INFO Job directory not specified...setting Job directory to calculator directory
+job.py:74 __init__ INFO Job scratch directory not specified...setting Job scratch to calculator scratch
+job.py:364 calculate_species INFO Calculating geometries for <Species "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_37
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_44
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_38
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_43
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_35
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_36
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_42
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_41
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_39
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_40
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_125
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_52
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_51
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_50
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_49
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_48
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_47
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_46
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_45
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_54
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_53
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_120
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_119
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_122
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_121
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_116
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_115
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_118
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_117
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_124
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_123
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_59
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_60
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_61
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_62
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_55
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_57
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_95
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_56
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_63
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_113
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_58
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+Traceback (most recent call last):
+  File "profile.py", line 73, in <module>
+    job.calculate_species(species)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 384, in calculate_species
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+    if not running.is_alive():
+AttributeError: 'str' object has no attribute 'is_alive'
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_114
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_64
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_107
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_108
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_105
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_106
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_111
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+job.py:252 calculate_conformer INFO Submitting conformer calculation for CC(C)OC=CO_112
+job.py:210 submit_conformer INFO Starting calculations for <Conformer "CC(C)OC=CO">
+Submitted batch job 7018133
+Submitted batch job 7018134
+Submitted batch job 7018135
+Submitted batch job 7018136
+Submitted batch job 7018137
+Submitted batch job 7018138
+Submitted batch job 7018139
+Submitted batch job 7018140
+Submitted batch job 7018142
+Submitted batch job 7018141
+Submitted batch job 7018143
+Submitted batch job 7018144
+Submitted batch job 7018145
+Submitted batch job 7018146
+Submitted batch job 7018147
+Submitted batch job 7018148
+Submitted batch job 7018149
+Submitted batch job 7018150
+Submitted batch job 7018151
+Submitted batch job 7018152
+Submitted batch job 7018154
+Submitted batch job 7018153
+Submitted batch job 7018156
+Submitted batch job 7018155
+Submitted batch job 7018157
+Submitted batch job 7018158
+Submitted batch job 7018160
+Submitted batch job 7018159
+Submitted batch job 7018161
+Submitted batch job 7018162
+Submitted batch job 7018166
+Submitted batch job 7018165
+Submitted batch job 7018168
+Submitted batch job 7018167
+Submitted batch job 7018163
+Submitted batch job 7018164
+Submitted batch job 7018169
+Submitted batch job 7018170
+Submitted batch job 7018171
+Submitted batch job 7018173
+Submitted batch job 7018172
+Submitted batch job 7018175
+Submitted batch job 7018176
+Submitted batch job 7018178
+Submitted batch job 7018181
+Submitted batch job 7018183
+Submitted batch job 7018177
+Submitted batch job 7018179
+Submitted batch job 7018185
+Submitted batch job 7018186
+slurm_load_jobs error: Transport endpoint is not connected
+slurm_load_jobs error: Transport endpoint is not connected
+slurm_load_jobs error: Transport endpoint is not connected
+slurm_load_jobs error: Transport endpoint is not connected
+slurm_load_jobs error: Transport endpoint is not connected
+slurm_load_jobs error: Transport endpoint is not connected
+slurm_load_jobs error: Transport endpoint is not connected
+slurm_load_jobs error: Transport endpoint is not connected
+slurm_load_jobs error: Transport endpoint is not connected
+slurm_load_jobs error: Transport endpoint is not connected
+slurm_load_jobs error: Transport endpoint is not connected
+slurm_load_jobs error: Transport endpoint is not connected
+slurm_load_jobs error: Transport endpoint is not connected
+gaussian.py:457 verify_output_file INFO Not a valid path, cannot be verified...
+gaussian.py:457 verify_output_file INFO Not a valid path, cannot be verified...
+job.py:261 calculate_conformer INFO It seems that the file never completed for CC(C)OC=CO_111 completed, running it again
+job.py:261 calculate_conformer INFO It seems that the file never completed for CC(C)OC=CO_115 completed, running it again
+gaussian.py:457 verify_output_file INFO Not a valid path, cannot be verified...
+job.py:261 calculate_conformer INFO It seems that the file never completed for CC(C)OC=CO_123 completed, running it again
+gaussian.py:457 verify_output_file INFO Not a valid path, cannot be verified...
+job.py:261 calculate_conformer INFO It seems that the file never completed for CC(C)OC=CO_62 completed, running it again
+gaussian.py:457 verify_output_file INFO Not a valid path, cannot be verified...
+job.py:261 calculate_conformer INFO It seems that the file never completed for CC(C)OC=CO_52 completed, running it again
+gaussian.py:457 verify_output_file INFO Not a valid path, cannot be verified...
+job.py:261 calculate_conformer INFO It seems that the file never completed for CC(C)OC=CO_60 completed, running it again
+gaussian.py:457 verify_output_file INFO Not a valid path, cannot be verified...
+job.py:261 calculate_conformer INFO It seems that the file never completed for CC(C)OC=CO_45 completed, running it again
+gaussian.py:457 verify_output_file INFO Not a valid path, cannot be verified...
+job.py:261 calculate_conformer INFO It seems that the file never completed for CC(C)OC=CO_37 completed, running it again
+gaussian.py:457 verify_output_file INFO Not a valid path, cannot be verified...
+gaussian.py:457 verify_output_file INFO Not a valid path, cannot be verified...
+job.py:261 calculate_conformer INFO It seems that the file never completed for CC(C)OC=CO_55 completed, running it again
+job.py:261 calculate_conformer INFO It seems that the file never completed for CC(C)OC=CO_40 completed, running it again
+gaussian.py:457 verify_output_file INFO Not a valid path, cannot be verified...
+job.py:261 calculate_conformer INFO It seems that the file never completed for CC(C)OC=CO_39 completed, running it again
+gaussian.py:457 verify_output_file INFO Not a valid path, cannot be verified...
+job.py:261 calculate_conformer INFO It seems that the file never completed for CC(C)OC=CO_121 completed, running it again
+gaussian.py:457 verify_output_file INFO Not a valid path, cannot be verified...
+job.py:261 calculate_conformer INFO It seems that the file never completed for CC(C)OC=CO_112 completed, running it again
+Process Process-550:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 262, in calculate_conformer
+    label = self.submit_conformer(conformer, restart=True)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 177, in submit_conformer
+    self.write_input(conformer, ase_calculator)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 143, in write_input
+    ase_calculator.label + ".com"
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/shutil.py", line 325, in move
+    copy2(src, real_dst)
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/shutil.py", line 153, in copy2
+    copyfile(src, dst)
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/shutil.py", line 96, in copyfile
+    with open(src, 'rb') as fsrc:
+IOError: [Errno 2] No such file or directory: 'CC(C)OC=CO_115.com'
+Process Process-472:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 262, in calculate_conformer
+    label = self.submit_conformer(conformer, restart=True)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 177, in submit_conformer
+    self.write_input(conformer, ase_calculator)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 143, in write_input
+    ase_calculator.label + ".com"
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/shutil.py", line 325, in move
+    copy2(src, real_dst)
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/shutil.py", line 153, in copy2
+    copyfile(src, dst)
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/shutil.py", line 96, in copyfile
+    with open(src, 'rb') as fsrc:
+IOError: [Errno 2] No such file or directory: 'CC(C)OC=CO_37.com'
+Process Process-475:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 262, in calculate_conformer
+    label = self.submit_conformer(conformer, restart=True)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 177, in submit_conformer
+    self.write_input(conformer, ase_calculator)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 143, in write_input
+    ase_calculator.label + ".com"
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/shutil.py", line 325, in move
+    copy2(src, real_dst)
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/shutil.py", line 153, in copy2
+    copyfile(src, dst)
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/shutil.py", line 96, in copyfile
+    with open(src, 'rb') as fsrc:
+IOError: [Errno 2] No such file or directory: 'CC(C)OC=CO_40.com'
+job.py:207 submit_conformer INFO Restarting calculations for <Conformer "CC(C)OC=CO">.
+job.py:207 submit_conformer INFO Restarting calculations for <Conformer "CC(C)OC=CO">.
+job.py:207 submit_conformer INFO Restarting calculations for <Conformer "CC(C)OC=CO">.
+job.py:207 submit_conformer INFO Restarting calculations for <Conformer "CC(C)OC=CO">.
+job.py:207 submit_conformer INFO Restarting calculations for <Conformer "CC(C)OC=CO">.
+job.py:207 submit_conformer INFO Restarting calculations for <Conformer "CC(C)OC=CO">.
+job.py:207 submit_conformer INFO Restarting calculations for <Conformer "CC(C)OC=CO">.
+Process Process-474:
+Traceback (most recent call last):
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 262, in calculate_conformer
+    label = self.submit_conformer(conformer, restart=True)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 177, in submit_conformer
+    self.write_input(conformer, ase_calculator)
+  File "/home/harms.n/Code/AutoTST/autotst/job/job.py", line 150, in write_input
+    ase_calculator.label + ".ase"
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/shutil.py", line 325, in move
+    copy2(src, real_dst)
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/shutil.py", line 153, in copy2
+    copyfile(src, dst)
+  File "/home/harms.n/anaconda2/envs/rmg_env/lib/python2.7/shutil.py", line 96, in copyfile
+    with open(src, 'rb') as fsrc:
+IOError: [Errno 2] No such file or directory: 'CC(C)OC=CO_39.ase'
+job.py:207 submit_conformer INFO Restarting calculations for <Conformer "CC(C)OC=CO">.
+job.py:207 submit_conformer INFO Restarting calculations for <Conformer "CC(C)OC=CO">.
+Submitted batch job 7022430
+Submitted batch job 7022445
+Submitted batch job 7022462
+Submitted batch job 7022483
+Submitted batch job 7022487
+Submitted batch job 7022498
+Submitted batch job 7022509
+Submitted batch job 7022512
+Submitted batch job 7022513
+job.py:293 check_isomorphic INFO CC(C)OC=CO_54 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_114 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_57 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_63 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_116 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_48 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_107 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_56 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_64 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_120 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_59 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_117 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_61 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_95 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_105 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_108 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_113 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_122 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_106 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_124 was successful and was validated!
+job.py:261 calculate_conformer INFO It seems that the file never completed for CC(C)OC=CO_119 completed, running it again
+job.py:207 submit_conformer INFO Restarting calculations for <Conformer "CC(C)OC=CO">.
+Submitted batch job 7062153
+job.py:293 check_isomorphic INFO CC(C)OC=CO_36 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_49 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_35 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_51 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_42 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_50 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_46 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_58 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_112 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_47 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_41 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_60 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_125 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_38 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_55 was successful and was validated!
+job.py:293 check_isomorphic INFO CC(C)OC=CO_111 was successful and was validated!
