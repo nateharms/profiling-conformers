@@ -2813,3 +2813,52 @@ gaussian.py:457 verify_output_file INFO Not a valid path, cannot be verified...
 job.py:261 calculate_conformer INFO It seems that the file never completed for CCCCCCC_128 completed, running it again
 job.py:207 submit_conformer INFO Restarting calculations for <Conformer "CCCCCCC">.
 Submitted batch job 7038464
+job.py:293 check_isomorphic INFO CCCCCCC_152 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_121 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_157 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_218 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_214 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_151 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_130 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_126 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_213 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_159 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_155 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_217 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_350 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_160 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_216 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_425 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_127 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_124 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_426 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_129 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_156 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_285 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_427 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_342 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_424 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_215 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_122 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_345 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_287 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_158 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_123 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_281 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_429 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_430 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_128 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_288 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_125 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_346 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_341 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_286 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_349 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_348 was successful and was validated!
+job.py:293 check_isomorphic INFO CCCCCCC_344 was successful and was validated!
+job.py:261 calculate_conformer INFO It seems that the file never completed for CCCCCCC_428 completed, running it again
+job.py:207 submit_conformer INFO Restarting calculations for <Conformer "CCCCCCC">.
+Submitted batch job 7075756
+job.py:261 calculate_conformer INFO It seems that the file never completed for CCCCCCC_422 completed, running it again
+job.py:207 submit_conformer INFO Restarting calculations for <Conformer "CCCCCCC">.
+Submitted batch job 7075976
